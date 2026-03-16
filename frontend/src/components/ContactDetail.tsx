@@ -20,11 +20,12 @@ type ContactDetailResponse = {
 
 type ContactDetailProps = {
   contactId: string | null;
+  refreshToken?: number;
 };
 
 const API_BASE = 'http://localhost:3001';
 
-export default function ContactDetail({ contactId }: ContactDetailProps) {
+export default function ContactDetail({ contactId, refreshToken = 0 }: ContactDetailProps) {
   const [contact, setContact] = useState<Contact | null>(null);
   const [activities, setActivities] = useState<Activity[]>([]);
   const [isLoading, setIsLoading] = useState(false);
@@ -62,7 +63,7 @@ export default function ContactDetail({ contactId }: ContactDetailProps) {
     };
 
     fetchContact();
-  }, [contactId]);
+  }, [contactId, refreshToken]);
 
   return (
     <div>

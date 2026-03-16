@@ -7,7 +7,11 @@ type SyncResponse = {
 
 const API_BASE = 'http://localhost:3001';
 
-export default function SyncTrigger() {
+type SyncTriggerProps = {
+  onSynced?: () => void;
+};
+
+export default function SyncTrigger({ onSynced }: SyncTriggerProps) {
   const [isSyncing, setIsSyncing] = useState(false);
   const [message, setMessage] = useState('');
   const [isError, setIsError] = useState(false);
@@ -28,6 +32,9 @@ export default function SyncTrigger() {
 
       const data: SyncResponse = await response.json();
       setMessage(`${data.message} (${data.contacts_synced} contacts synced)`);
+      if (onSynced) {
+        onSynced();
+      }
     } catch (error) {
       const text = error instanceof Error ? error.message : 'Unknown sync error';
       setIsError(true);

@@ -21,6 +21,7 @@ type ContactsResponse = {
 type ContactListProps = {
   onSelectContact: (id: string) => void;
   onContactsLoaded?: (contacts: Contact[]) => void;
+  refreshToken?: number;
 };
 
 const API_BASE = 'http://localhost:3001';
@@ -28,7 +29,7 @@ const API_BASE = 'http://localhost:3001';
 const LIFECYCLE_STAGES = ['', 'lead', 'mql', 'sql', 'opportunity', 'customer'];
 const SOURCES = ['', 'organic', 'paid', 'referral', 'direct'];
 
-export default function ContactList({ onSelectContact, onContactsLoaded }: ContactListProps) {
+export default function ContactList({ onSelectContact, onContactsLoaded, refreshToken = 0 }: ContactListProps) {
   const [contacts, setContacts] = useState<Contact[]>([]);
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState('');
@@ -78,7 +79,7 @@ export default function ContactList({ onSelectContact, onContactsLoaded }: Conta
     };
 
     fetchContacts();
-  }, [page, lifecycleStage, source, onContactsLoaded]);
+  }, [page, lifecycleStage, source, onContactsLoaded, refreshToken]);
 
   const handleLifecycleChange = (value: string) => {
     setLifecycleStage(value);
