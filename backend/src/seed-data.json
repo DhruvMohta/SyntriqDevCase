@@ -1,0 +1,3529 @@
+{
+  "_info": {
+    "description": "Seed data for Full Stack Developer Case - Contact Sync Dashboard",
+    "generated": "2026-02-06",
+    "total_contacts": 50,
+    "total_activities": 267
+  },
+  "paginated_contacts": [
+    {
+      "page": 1,
+      "contacts": [
+        {
+          "id": "crm-001",
+          "name": "Evelyn Brown",
+          "email": "evelyn.brown@acmecorp.com",
+          "company": "Acme Corp",
+          "lifecycle_stage": "customer",
+          "last_activity": "2026-01-04T04:37:18Z",
+          "deal_value": 68516,
+          "source": "organic"
+        },
+        {
+          "id": "crm-002",
+          "name": "Noah Moore",
+          "email": "noah.moore@velocitypa.com",
+          "company": "Velocity Partners",
+          "lifecycle_stage": "mql",
+          "last_activity": "2026-01-15T13:44:18Z",
+          "deal_value": 22488,
+          "source": "referral"
+        },
+        {
+          "id": "crm-003",
+          "name": "Noah Thompson",
+          "email": "noah.thompson@globalsolu.com",
+          "company": "Global Solutions",
+          "lifecycle_stage": "customer",
+          "last_activity": "2025-12-15T13:27:18Z",
+          "deal_value": 57940,
+          "source": "organic"
+        },
+        {
+          "id": "crm-004",
+          "name": "Sebastian Brown",
+          "email": "sebastian.brown@quantumlab.com",
+          "company": "Quantum Labs",
+          "lifecycle_stage": "mql",
+          "last_activity": "2025-12-27T19:01:18Z",
+          "deal_value": 8709,
+          "source": "direct"
+        },
+        {
+          "id": "crm-005",
+          "name": "Alexander Anderson",
+          "email": "alexander.anderson@quantumlab.com",
+          "company": "Quantum Labs",
+          "lifecycle_stage": "opportunity",
+          "last_activity": "2025-11-30T12:27:18Z",
+          "deal_value": 14182,
+          "source": "paid"
+        },
+        {
+          "id": "crm-006",
+          "name": "Noah Davis",
+          "email": "noah.davis@nexusdigit.com",
+          "company": "Nexus Digital",
+          "lifecycle_stage": "lead",
+          "last_activity": "2026-01-28T11:47:18Z",
+          "deal_value": 23321,
+          "source": "organic"
+        },
+        {
+          "id": "crm-007",
+          "name": "Luna Brown",
+          "email": "luna.brown@globalsolu.com",
+          "company": "Global Solutions",
+          "lifecycle_stage": "sql",
+          "last_activity": "2025-11-18T23:49:18Z",
+          "deal_value": 39748,
+          "source": "paid"
+        },
+        {
+          "id": "crm-008",
+          "name": "William Taylor",
+          "email": "william.taylor@horizongro.com",
+          "company": "Horizon Group",
+          "lifecycle_stage": "sql",
+          "last_activity": "2026-02-05T11:55:18Z",
+          "deal_value": 28029,
+          "source": "organic"
+        },
+        {
+          "id": "crm-009",
+          "name": "Michael Jackson",
+          "email": "michael.jackson@atlasindus.com",
+          "company": "Atlas Industries",
+          "lifecycle_stage": "mql",
+          "last_activity": "2025-12-27T07:27:18Z",
+          "deal_value": 16105,
+          "source": "paid"
+        },
+        {
+          "id": "crm-010",
+          "name": "Sebastian Williams",
+          "email": "sebastian.williams@dataflowsy.com",
+          "company": "DataFlow Systems",
+          "lifecycle_stage": "lead",
+          "last_activity": "2025-12-30T22:07:18Z",
+          "deal_value": 18565,
+          "source": "organic"
+        }
+      ],
+      "pagination": {
+        "page": 1,
+        "total_pages": 5,
+        "total_count": 50
+      }
+    },
+    {
+      "page": 2,
+      "contacts": [
+        {
+          "id": "crm-011",
+          "name": "Chloe Johnson",
+          "email": "chloe.johnson@brightidea.com",
+          "company": "Bright Ideas Co",
+          "lifecycle_stage": "sql",
+          "last_activity": "2026-01-12T13:00:18Z",
+          "deal_value": 26810,
+          "source": "paid"
+        },
+        {
+          "id": "crm-012",
+          "name": "Sebastian Moore",
+          "email": "sebastian.moore@nexusdigit.com",
+          "company": "Nexus Digital",
+          "lifecycle_stage": "mql",
+          "last_activity": "2026-01-02T04:54:18Z",
+          "deal_value": 19554,
+          "source": "paid"
+        },
+        {
+          "id": "crm-013",
+          "name": "Penelope Thomas",
+          "email": "penelope.thomas@horizongro.com",
+          "company": "Horizon Group",
+          "lifecycle_stage": "sql",
+          "last_activity": "2025-11-11T17:11:18Z",
+          "deal_value": 13160,
+          "source": "referral"
+        },
+        {
+          "id": "crm-014",
+          "name": "Penelope Martin",
+          "email": "penelope.martin@acmecorp.com",
+          "company": "Acme Corp",
+          "lifecycle_stage": "sql",
+          "last_activity": "2026-01-19T18:56:18Z",
+          "deal_value": 31251,
+          "source": "referral"
+        },
+        {
+          "id": "crm-015",
+          "name": "Michael Lee",
+          "email": "michael.lee@quantumlab.com",
+          "company": "Quantum Labs",
+          "lifecycle_stage": "sql",
+          "last_activity": "2025-11-17T16:14:18Z",
+          "deal_value": 28689,
+          "source": "organic"
+        },
+        {
+          "id": "crm-016",
+          "name": "Daniel Martin",
+          "email": "daniel.martin@sparkinnov.com",
+          "company": "Spark Innovation",
+          "lifecycle_stage": "lead",
+          "last_activity": "2025-12-20T14:06:18Z",
+          "deal_value": 17578,
+          "source": "organic"
+        },
+        {
+          "id": "crm-017",
+          "name": "Chloe Thomas",
+          "email": "chloe.thomas@brightidea.com",
+          "company": "Bright Ideas Co",
+          "lifecycle_stage": "sql",
+          "last_activity": "2026-01-25T05:30:18Z",
+          "deal_value": 35359,
+          "source": "paid"
+        },
+        {
+          "id": "crm-018",
+          "name": "Isabella Anderson",
+          "email": "isabella.anderson@atlasindus.com",
+          "company": "Atlas Industries",
+          "lifecycle_stage": "mql",
+          "last_activity": "2025-12-09T22:44:18Z",
+          "deal_value": 31539,
+          "source": "referral"
+        },
+        {
+          "id": "crm-019",
+          "name": "Riley Moore",
+          "email": "riley.moore@dataflowsy.com",
+          "company": "DataFlow Systems",
+          "lifecycle_stage": "customer",
+          "last_activity": "2025-11-13T03:54:18Z",
+          "deal_value": 50964,
+          "source": "direct"
+        },
+        {
+          "id": "crm-020",
+          "name": "John Smith",
+          "email": "john.smith@globalsolu.com",
+          "company": "Global Solutions",
+          "lifecycle_stage": "lead",
+          "last_activity": "2026-01-29T14:34:18Z",
+          "deal_value": 3663,
+          "source": "organic"
+        }
+      ],
+      "pagination": {
+        "page": 2,
+        "total_pages": 5,
+        "total_count": 50
+      }
+    },
+    {
+      "page": 3,
+      "contacts": [
+        {
+          "id": "crm-021",
+          "name": "Lucas Martin",
+          "email": "lucas.martin@atlasindus.com",
+          "company": "Atlas Industries",
+          "lifecycle_stage": "mql",
+          "last_activity": "2025-12-24T20:43:18Z",
+          "deal_value": 18056,
+          "source": "paid"
+        },
+        {
+          "id": "crm-022",
+          "name": "Sebastian Lee",
+          "email": "sebastian.lee@dataflowsy.com",
+          "company": "DataFlow Systems",
+          "lifecycle_stage": "mql",
+          "last_activity": "2025-11-29T21:13:18Z",
+          "deal_value": 23057,
+          "source": "referral"
+        },
+        {
+          "id": "crm-023",
+          "name": "Harper White",
+          "email": "harper.white@atlasindus.com",
+          "company": "Atlas Industries",
+          "lifecycle_stage": "mql",
+          "last_activity": "2026-01-06T16:50:18Z",
+          "deal_value": 20588,
+          "source": "paid"
+        },
+        {
+          "id": "crm-024",
+          "name": "John Jones",
+          "email": "john.jones@sparkinnov.com",
+          "company": "Spark Innovation",
+          "lifecycle_stage": "mql",
+          "last_activity": "2025-11-10T11:46:18Z",
+          "deal_value": 39352,
+          "source": "paid"
+        },
+        {
+          "id": "crm-025",
+          "name": "Alexander Davis",
+          "email": "alexander.davis@quantumlab.com",
+          "company": "Quantum Labs",
+          "lifecycle_stage": "lead",
+          "last_activity": "2025-12-26T14:28:18Z",
+          "deal_value": 7814,
+          "source": "organic"
+        },
+        {
+          "id": "crm-026",
+          "name": "Michael Jackson",
+          "email": "michael.jackson@pioneertec.com",
+          "company": "Pioneer Tech",
+          "lifecycle_stage": "sql",
+          "last_activity": "2026-01-23T23:59:18Z",
+          "deal_value": 48462,
+          "source": "direct"
+        },
+        {
+          "id": "crm-027",
+          "name": "Daniel Martinez",
+          "email": "daniel.martinez@quantumlab.com",
+          "company": "Quantum Labs",
+          "lifecycle_stage": "mql",
+          "last_activity": "2026-01-31T08:59:18Z",
+          "deal_value": 25767,
+          "source": "organic"
+        },
+        {
+          "id": "crm-028",
+          "name": "Ethan Taylor",
+          "email": "ethan.taylor@horizongro.com",
+          "company": "Horizon Group",
+          "lifecycle_stage": "lead",
+          "last_activity": "2025-11-29T09:40:18Z",
+          "deal_value": 12955,
+          "source": "referral"
+        },
+        {
+          "id": "crm-029",
+          "name": "Luna Taylor",
+          "email": "luna.taylor@apexconsul.com",
+          "company": "Apex Consulting",
+          "lifecycle_stage": "lead",
+          "last_activity": "2025-11-15T21:11:18Z",
+          "deal_value": 24480,
+          "source": "referral"
+        },
+        {
+          "id": "crm-030",
+          "name": "Jack Brown",
+          "email": "jack.brown@techstarti.com",
+          "company": "TechStart Inc",
+          "lifecycle_stage": "mql",
+          "last_activity": "2025-12-04T23:39:18Z",
+          "deal_value": 25248,
+          "source": "referral"
+        }
+      ],
+      "pagination": {
+        "page": 3,
+        "total_pages": 5,
+        "total_count": 50
+      }
+    },
+    {
+      "page": 4,
+      "contacts": [
+        {
+          "id": "crm-031",
+          "name": "Ethan Smith",
+          "email": "ethan.smith@brightidea.com",
+          "company": "Bright Ideas Co",
+          "lifecycle_stage": "lead",
+          "last_activity": "2025-12-08T03:29:18Z",
+          "deal_value": 7609,
+          "source": "organic"
+        },
+        {
+          "id": "crm-032",
+          "name": "Jack Rodriguez",
+          "email": "jack.rodriguez@horizongro.com",
+          "company": "Horizon Group",
+          "lifecycle_stage": "lead",
+          "last_activity": "2026-01-29T18:56:18Z",
+          "deal_value": 24194,
+          "source": "organic"
+        },
+        {
+          "id": "crm-033",
+          "name": "James Anderson",
+          "email": "james.anderson@nexusdigit.com",
+          "company": "Nexus Digital",
+          "lifecycle_stage": "sql",
+          "last_activity": "2025-11-21T07:09:18Z",
+          "deal_value": 49628,
+          "source": "direct"
+        },
+        {
+          "id": "crm-034",
+          "name": "Luna Jones",
+          "email": "luna.jones@techstarti.com",
+          "company": "TechStart Inc",
+          "lifecycle_stage": "sql",
+          "last_activity": "2025-11-18T23:11:18Z",
+          "deal_value": 40624,
+          "source": "direct"
+        },
+        {
+          "id": "crm-035",
+          "name": "John Martin",
+          "email": "john.martin@velocitypa.com",
+          "company": "Velocity Partners",
+          "lifecycle_stage": "sql",
+          "last_activity": "2025-12-28T16:01:18Z",
+          "deal_value": 48300,
+          "source": "referral"
+        },
+        {
+          "id": "crm-036",
+          "name": "Ethan Garcia",
+          "email": "ethan.garcia@techstarti.com",
+          "company": "TechStart Inc",
+          "lifecycle_stage": "lead",
+          "last_activity": "2026-01-30T01:02:18Z",
+          "deal_value": 15436,
+          "source": "referral"
+        },
+        {
+          "id": "crm-037",
+          "name": "Isabella Brown",
+          "email": "isabella.brown@brightidea.com",
+          "company": "Bright Ideas Co",
+          "lifecycle_stage": "lead",
+          "last_activity": "2026-01-14T23:43:18Z",
+          "deal_value": 21542,
+          "source": "paid"
+        },
+        {
+          "id": "crm-038",
+          "name": "Lucas Thompson",
+          "email": "lucas.thompson@techstarti.com",
+          "company": "TechStart Inc",
+          "lifecycle_stage": "lead",
+          "last_activity": "2025-12-18T14:51:18Z",
+          "deal_value": 2793,
+          "source": "referral"
+        },
+        {
+          "id": "crm-039",
+          "name": "William Miller",
+          "email": "william.miller@techstarti.com",
+          "company": "TechStart Inc",
+          "lifecycle_stage": "opportunity",
+          "last_activity": "2026-02-02T00:39:18Z",
+          "deal_value": 64530,
+          "source": "direct"
+        },
+        {
+          "id": "crm-040",
+          "name": "Noah Brown",
+          "email": "noah.brown@horizongro.com",
+          "company": "Horizon Group",
+          "lifecycle_stage": "lead",
+          "last_activity": "2025-11-26T23:48:18Z",
+          "deal_value": 22504,
+          "source": "organic"
+        }
+      ],
+      "pagination": {
+        "page": 4,
+        "total_pages": 5,
+        "total_count": 50
+      }
+    },
+    {
+      "page": 5,
+      "contacts": [
+        {
+          "id": "crm-041",
+          "name": "Noah Thompson",
+          "email": "noah.thompson@horizongro.com",
+          "company": "Horizon Group",
+          "lifecycle_stage": "lead",
+          "last_activity": "2025-12-31T19:26:18Z",
+          "deal_value": 23473,
+          "source": "referral"
+        },
+        {
+          "id": "crm-042",
+          "name": "Daniel White",
+          "email": "daniel.white@acmecorp.com",
+          "company": "Acme Corp",
+          "lifecycle_stage": "mql",
+          "last_activity": "2026-02-05T04:30:18Z",
+          "deal_value": 13976,
+          "source": "referral"
+        },
+        {
+          "id": "crm-043",
+          "name": "Mia Jones",
+          "email": "mia.jones@sparkinnov.com",
+          "company": "Spark Innovation",
+          "lifecycle_stage": "sql",
+          "last_activity": "2026-01-26T17:09:18Z",
+          "deal_value": 47239,
+          "source": "direct"
+        },
+        {
+          "id": "crm-044",
+          "name": "Luna Lee",
+          "email": "luna.lee@quantumlab.com",
+          "company": "Quantum Labs",
+          "lifecycle_stage": "sql",
+          "last_activity": "2025-11-22T05:49:18Z",
+          "deal_value": 32187,
+          "source": "organic"
+        },
+        {
+          "id": "crm-045",
+          "name": "Evelyn Martinez",
+          "email": "evelyn.martinez@globalsolu.com",
+          "company": "Global Solutions",
+          "lifecycle_stage": "customer",
+          "last_activity": "2026-01-29T06:50:18Z",
+          "deal_value": 29198,
+          "source": "referral"
+        },
+        {
+          "id": "crm-046",
+          "name": "Luna Garcia",
+          "email": "luna.garcia@nexusdigit.com",
+          "company": "Nexus Digital",
+          "lifecycle_stage": "opportunity",
+          "last_activity": "2025-12-08T05:07:18Z",
+          "deal_value": 60471,
+          "source": "organic"
+        },
+        {
+          "id": "crm-047",
+          "name": "Charlotte Thomas",
+          "email": "charlotte.thomas@cloudninel.com",
+          "company": "CloudNine Ltd",
+          "lifecycle_stage": "sql",
+          "last_activity": "2026-01-14T17:02:18Z",
+          "deal_value": 32804,
+          "source": "organic"
+        },
+        {
+          "id": "crm-048",
+          "name": "Olivia Miller",
+          "email": "olivia.miller@techstarti.com",
+          "company": "TechStart Inc",
+          "lifecycle_stage": "lead",
+          "last_activity": "2025-11-22T00:27:18Z",
+          "deal_value": 7916,
+          "source": "paid"
+        },
+        {
+          "id": "crm-049",
+          "name": "James Moore",
+          "email": "james.moore@summitente.com",
+          "company": "Summit Enterprises",
+          "lifecycle_stage": "lead",
+          "last_activity": "2025-12-13T12:06:18Z",
+          "deal_value": 7469,
+          "source": "organic"
+        },
+        {
+          "id": "crm-050",
+          "name": "Owen Moore",
+          "email": "owen.moore@dataflowsy.com",
+          "company": "DataFlow Systems",
+          "lifecycle_stage": "sql",
+          "last_activity": "2026-01-24T08:43:18Z",
+          "deal_value": 24477,
+          "source": "paid"
+        }
+      ],
+      "pagination": {
+        "page": 5,
+        "total_pages": 5,
+        "total_count": 50
+      }
+    }
+  ],
+  "contacts_with_activities": [
+    {
+      "contact": {
+        "id": "crm-001",
+        "name": "Evelyn Brown",
+        "email": "evelyn.brown@acmecorp.com",
+        "company": "Acme Corp",
+        "lifecycle_stage": "customer",
+        "last_activity": "2026-01-04T04:37:18Z",
+        "deal_value": 68516,
+        "source": "organic"
+      },
+      "activities": [
+        {
+          "id": "act-001-01",
+          "type": "form_submit",
+          "timestamp": "2025-12-28T09:37:18Z",
+          "metadata": {
+            "form_name": "pricing_inquiry"
+          }
+        },
+        {
+          "id": "act-001-03",
+          "type": "email_opened",
+          "timestamp": "2025-12-24T06:37:18Z",
+          "metadata": {
+            "email_subject": "New features announcement"
+          }
+        },
+        {
+          "id": "act-001-02",
+          "type": "meeting_booked",
+          "timestamp": "2025-12-16T06:37:18Z",
+          "metadata": {
+            "meeting_type": "demo",
+            "duration_minutes": 60
+          }
+        },
+        {
+          "id": "act-001-04",
+          "type": "email_opened",
+          "timestamp": "2025-12-13T07:37:18Z",
+          "metadata": {
+            "email_subject": "New features announcement"
+          }
+        }
+      ]
+    },
+    {
+      "contact": {
+        "id": "crm-002",
+        "name": "Noah Moore",
+        "email": "noah.moore@velocitypa.com",
+        "company": "Velocity Partners",
+        "lifecycle_stage": "mql",
+        "last_activity": "2026-01-15T13:44:18Z",
+        "deal_value": 22488,
+        "source": "referral"
+      },
+      "activities": [
+        {
+          "id": "act-002-01",
+          "type": "meeting_booked",
+          "timestamp": "2026-01-08T20:44:18Z",
+          "metadata": {
+            "meeting_type": "demo",
+            "duration_minutes": 15
+          }
+        },
+        {
+          "id": "act-002-02",
+          "type": "form_submit",
+          "timestamp": "2025-11-18T22:44:18Z",
+          "metadata": {
+            "form_name": "newsletter_signup"
+          }
+        }
+      ]
+    },
+    {
+      "contact": {
+        "id": "crm-003",
+        "name": "Noah Thompson",
+        "email": "noah.thompson@globalsolu.com",
+        "company": "Global Solutions",
+        "lifecycle_stage": "customer",
+        "last_activity": "2025-12-15T13:27:18Z",
+        "deal_value": 57940,
+        "source": "organic"
+      },
+      "activities": [
+        {
+          "id": "act-003-02",
+          "type": "email_opened",
+          "timestamp": "2025-12-11T12:27:18Z",
+          "metadata": {
+            "email_subject": "Your account update"
+          }
+        },
+        {
+          "id": "act-003-01",
+          "type": "email_opened",
+          "timestamp": "2025-12-08T13:27:18Z",
+          "metadata": {
+            "email_subject": "Follow-up from our call"
+          }
+        },
+        {
+          "id": "act-003-03",
+          "type": "form_submit",
+          "timestamp": "2025-11-03T05:27:18Z",
+          "metadata": {
+            "form_name": "demo_request"
+          }
+        }
+      ]
+    },
+    {
+      "contact": {
+        "id": "crm-004",
+        "name": "Sebastian Brown",
+        "email": "sebastian.brown@quantumlab.com",
+        "company": "Quantum Labs",
+        "lifecycle_stage": "mql",
+        "last_activity": "2025-12-27T19:01:18Z",
+        "deal_value": 8709,
+        "source": "direct"
+      },
+      "activities": [
+        {
+          "id": "act-004-02",
+          "type": "page_visit",
+          "timestamp": "2025-12-10T13:01:18Z",
+          "metadata": {
+            "page": "/demo",
+            "duration_seconds": 239
+          }
+        },
+        {
+          "id": "act-004-01",
+          "type": "form_submit",
+          "timestamp": "2025-12-02T12:01:18Z",
+          "metadata": {
+            "form_name": "newsletter_signup"
+          }
+        }
+      ]
+    },
+    {
+      "contact": {
+        "id": "crm-005",
+        "name": "Alexander Anderson",
+        "email": "alexander.anderson@quantumlab.com",
+        "company": "Quantum Labs",
+        "lifecycle_stage": "opportunity",
+        "last_activity": "2025-11-30T12:27:18Z",
+        "deal_value": 14182,
+        "source": "paid"
+      },
+      "activities": [
+        {
+          "id": "act-005-03",
+          "type": "email_opened",
+          "timestamp": "2025-11-07T07:27:18Z",
+          "metadata": {
+            "email_subject": "Follow-up from our call"
+          }
+        },
+        {
+          "id": "act-005-01",
+          "type": "meeting_booked",
+          "timestamp": "2025-11-03T20:27:18Z",
+          "metadata": {
+            "meeting_type": "demo",
+            "duration_minutes": 60
+          }
+        },
+        {
+          "id": "act-005-02",
+          "type": "meeting_booked",
+          "timestamp": "2025-10-11T17:27:18Z",
+          "metadata": {
+            "meeting_type": "technical_review",
+            "duration_minutes": 45
+          }
+        }
+      ]
+    },
+    {
+      "contact": {
+        "id": "crm-006",
+        "name": "Noah Davis",
+        "email": "noah.davis@nexusdigit.com",
+        "company": "Nexus Digital",
+        "lifecycle_stage": "lead",
+        "last_activity": "2026-01-28T11:47:18Z",
+        "deal_value": 23321,
+        "source": "organic"
+      },
+      "activities": [
+        {
+          "id": "act-006-03",
+          "type": "page_visit",
+          "timestamp": "2026-01-08T06:47:18Z",
+          "metadata": {
+            "page": "/features",
+            "duration_seconds": 31
+          }
+        },
+        {
+          "id": "act-006-07",
+          "type": "meeting_booked",
+          "timestamp": "2026-01-01T12:47:18Z",
+          "metadata": {
+            "meeting_type": "discovery_call",
+            "duration_minutes": 30
+          }
+        },
+        {
+          "id": "act-006-02",
+          "type": "email_opened",
+          "timestamp": "2025-12-22T19:47:18Z",
+          "metadata": {
+            "email_subject": "Your demo is ready"
+          }
+        },
+        {
+          "id": "act-006-04",
+          "type": "form_submit",
+          "timestamp": "2025-12-13T10:47:18Z",
+          "metadata": {
+            "form_name": "pricing_inquiry"
+          }
+        },
+        {
+          "id": "act-006-06",
+          "type": "form_submit",
+          "timestamp": "2025-12-10T21:47:18Z",
+          "metadata": {
+            "form_name": "contact_form"
+          }
+        },
+        {
+          "id": "act-006-05",
+          "type": "meeting_booked",
+          "timestamp": "2025-12-08T06:47:18Z",
+          "metadata": {
+            "meeting_type": "pricing_discussion",
+            "duration_minutes": 30
+          }
+        },
+        {
+          "id": "act-006-01",
+          "type": "email_opened",
+          "timestamp": "2025-11-29T03:47:18Z",
+          "metadata": {
+            "email_subject": "Your account update"
+          }
+        }
+      ]
+    },
+    {
+      "contact": {
+        "id": "crm-007",
+        "name": "Luna Brown",
+        "email": "luna.brown@globalsolu.com",
+        "company": "Global Solutions",
+        "lifecycle_stage": "sql",
+        "last_activity": "2025-11-18T23:49:18Z",
+        "deal_value": 39748,
+        "source": "paid"
+      },
+      "activities": [
+        {
+          "id": "act-007-04",
+          "type": "meeting_booked",
+          "timestamp": "2025-11-15T23:49:18Z",
+          "metadata": {
+            "meeting_type": "demo",
+            "duration_minutes": 60
+          }
+        },
+        {
+          "id": "act-007-01",
+          "type": "meeting_booked",
+          "timestamp": "2025-11-05T05:49:18Z",
+          "metadata": {
+            "meeting_type": "pricing_discussion",
+            "duration_minutes": 60
+          }
+        },
+        {
+          "id": "act-007-03",
+          "type": "email_opened",
+          "timestamp": "2025-10-30T08:49:18Z",
+          "metadata": {
+            "email_subject": "Your account update"
+          }
+        },
+        {
+          "id": "act-007-02",
+          "type": "email_opened",
+          "timestamp": "2025-10-14T06:49:18Z",
+          "metadata": {
+            "email_subject": "Follow-up from our call"
+          }
+        }
+      ]
+    },
+    {
+      "contact": {
+        "id": "crm-008",
+        "name": "William Taylor",
+        "email": "william.taylor@horizongro.com",
+        "company": "Horizon Group",
+        "lifecycle_stage": "sql",
+        "last_activity": "2026-02-05T11:55:18Z",
+        "deal_value": 28029,
+        "source": "organic"
+      },
+      "activities": [
+        {
+          "id": "act-008-03",
+          "type": "email_opened",
+          "timestamp": "2026-02-01T14:55:18Z",
+          "metadata": {
+            "email_subject": "Your account update"
+          }
+        },
+        {
+          "id": "act-008-01",
+          "type": "meeting_booked",
+          "timestamp": "2026-01-02T23:55:18Z",
+          "metadata": {
+            "meeting_type": "pricing_discussion",
+            "duration_minutes": 45
+          }
+        },
+        {
+          "id": "act-008-02",
+          "type": "page_visit",
+          "timestamp": "2025-12-24T10:55:18Z",
+          "metadata": {
+            "page": "/pricing",
+            "duration_seconds": 125
+          }
+        },
+        {
+          "id": "act-008-06",
+          "type": "email_opened",
+          "timestamp": "2025-12-23T06:55:18Z",
+          "metadata": {
+            "email_subject": "Syntriq: Getting started guide"
+          }
+        },
+        {
+          "id": "act-008-05",
+          "type": "email_opened",
+          "timestamp": "2025-12-18T16:55:18Z",
+          "metadata": {
+            "email_subject": "Follow-up from our call"
+          }
+        },
+        {
+          "id": "act-008-04",
+          "type": "page_visit",
+          "timestamp": "2025-12-15T14:55:18Z",
+          "metadata": {
+            "page": "/",
+            "duration_seconds": 232
+          }
+        }
+      ]
+    },
+    {
+      "contact": {
+        "id": "crm-009",
+        "name": "Michael Jackson",
+        "email": "michael.jackson@atlasindus.com",
+        "company": "Atlas Industries",
+        "lifecycle_stage": "mql",
+        "last_activity": "2025-12-27T07:27:18Z",
+        "deal_value": 16105,
+        "source": "paid"
+      },
+      "activities": [
+        {
+          "id": "act-009-03",
+          "type": "email_opened",
+          "timestamp": "2025-11-26T16:27:18Z",
+          "metadata": {
+            "email_subject": "Your demo is ready"
+          }
+        },
+        {
+          "id": "act-009-04",
+          "type": "meeting_booked",
+          "timestamp": "2025-11-01T22:27:18Z",
+          "metadata": {
+            "meeting_type": "discovery_call",
+            "duration_minutes": 60
+          }
+        },
+        {
+          "id": "act-009-01",
+          "type": "page_visit",
+          "timestamp": "2025-10-29T09:27:18Z",
+          "metadata": {
+            "page": "/case-studies",
+            "duration_seconds": 104
+          }
+        },
+        {
+          "id": "act-009-02",
+          "type": "email_opened",
+          "timestamp": "2025-10-28T08:27:18Z",
+          "metadata": {
+            "email_subject": "Your account update"
+          }
+        }
+      ]
+    },
+    {
+      "contact": {
+        "id": "crm-010",
+        "name": "Sebastian Williams",
+        "email": "sebastian.williams@dataflowsy.com",
+        "company": "DataFlow Systems",
+        "lifecycle_stage": "lead",
+        "last_activity": "2025-12-30T22:07:18Z",
+        "deal_value": 18565,
+        "source": "organic"
+      },
+      "activities": [
+        {
+          "id": "act-010-03",
+          "type": "email_opened",
+          "timestamp": "2025-11-30T17:07:18Z",
+          "metadata": {
+            "email_subject": "Your account update"
+          }
+        },
+        {
+          "id": "act-010-02",
+          "type": "meeting_booked",
+          "timestamp": "2025-11-16T19:07:18Z",
+          "metadata": {
+            "meeting_type": "technical_review",
+            "duration_minutes": 15
+          }
+        },
+        {
+          "id": "act-010-01",
+          "type": "meeting_booked",
+          "timestamp": "2025-11-10T16:07:18Z",
+          "metadata": {
+            "meeting_type": "demo",
+            "duration_minutes": 15
+          }
+        }
+      ]
+    },
+    {
+      "contact": {
+        "id": "crm-011",
+        "name": "Chloe Johnson",
+        "email": "chloe.johnson@brightidea.com",
+        "company": "Bright Ideas Co",
+        "lifecycle_stage": "sql",
+        "last_activity": "2026-01-12T13:00:18Z",
+        "deal_value": 26810,
+        "source": "paid"
+      },
+      "activities": [
+        {
+          "id": "act-011-01",
+          "type": "form_submit",
+          "timestamp": "2026-01-11T17:00:18Z",
+          "metadata": {
+            "form_name": "demo_request"
+          }
+        },
+        {
+          "id": "act-011-03",
+          "type": "meeting_booked",
+          "timestamp": "2026-01-06T15:00:18Z",
+          "metadata": {
+            "meeting_type": "discovery_call",
+            "duration_minutes": 30
+          }
+        },
+        {
+          "id": "act-011-04",
+          "type": "form_submit",
+          "timestamp": "2025-12-18T01:00:18Z",
+          "metadata": {
+            "form_name": "contact_form"
+          }
+        },
+        {
+          "id": "act-011-02",
+          "type": "email_opened",
+          "timestamp": "2025-12-04T21:00:18Z",
+          "metadata": {
+            "email_subject": "Syntriq: Getting started guide"
+          }
+        },
+        {
+          "id": "act-011-06",
+          "type": "page_visit",
+          "timestamp": "2025-11-28T00:00:18Z",
+          "metadata": {
+            "page": "/blog",
+            "duration_seconds": 275
+          }
+        },
+        {
+          "id": "act-011-05",
+          "type": "page_visit",
+          "timestamp": "2025-11-26T03:00:18Z",
+          "metadata": {
+            "page": "/about",
+            "duration_seconds": 271
+          }
+        }
+      ]
+    },
+    {
+      "contact": {
+        "id": "crm-012",
+        "name": "Sebastian Moore",
+        "email": "sebastian.moore@nexusdigit.com",
+        "company": "Nexus Digital",
+        "lifecycle_stage": "mql",
+        "last_activity": "2026-01-02T04:54:18Z",
+        "deal_value": 19554,
+        "source": "paid"
+      },
+      "activities": [
+        {
+          "id": "act-012-05",
+          "type": "form_submit",
+          "timestamp": "2025-12-29T19:54:18Z",
+          "metadata": {
+            "form_name": "newsletter_signup"
+          }
+        },
+        {
+          "id": "act-012-04",
+          "type": "meeting_booked",
+          "timestamp": "2025-12-27T23:54:18Z",
+          "metadata": {
+            "meeting_type": "pricing_discussion",
+            "duration_minutes": 60
+          }
+        },
+        {
+          "id": "act-012-01",
+          "type": "meeting_booked",
+          "timestamp": "2025-12-13T05:54:18Z",
+          "metadata": {
+            "meeting_type": "discovery_call",
+            "duration_minutes": 60
+          }
+        },
+        {
+          "id": "act-012-07",
+          "type": "email_opened",
+          "timestamp": "2025-12-03T03:54:18Z",
+          "metadata": {
+            "email_subject": "New features announcement"
+          }
+        },
+        {
+          "id": "act-012-03",
+          "type": "form_submit",
+          "timestamp": "2025-12-01T20:54:18Z",
+          "metadata": {
+            "form_name": "pricing_inquiry"
+          }
+        },
+        {
+          "id": "act-012-06",
+          "type": "form_submit",
+          "timestamp": "2025-11-11T15:54:18Z",
+          "metadata": {
+            "form_name": "demo_request"
+          }
+        },
+        {
+          "id": "act-012-02",
+          "type": "email_opened",
+          "timestamp": "2025-11-11T00:54:18Z",
+          "metadata": {
+            "email_subject": "New features announcement"
+          }
+        }
+      ]
+    },
+    {
+      "contact": {
+        "id": "crm-013",
+        "name": "Penelope Thomas",
+        "email": "penelope.thomas@horizongro.com",
+        "company": "Horizon Group",
+        "lifecycle_stage": "sql",
+        "last_activity": "2025-11-11T17:11:18Z",
+        "deal_value": 13160,
+        "source": "referral"
+      },
+      "activities": [
+        {
+          "id": "act-013-01",
+          "type": "page_visit",
+          "timestamp": "2025-11-06T03:11:18Z",
+          "metadata": {
+            "page": "/contact",
+            "duration_seconds": 280
+          }
+        },
+        {
+          "id": "act-013-02",
+          "type": "form_submit",
+          "timestamp": "2025-10-13T17:11:18Z",
+          "metadata": {
+            "form_name": "demo_request"
+          }
+        },
+        {
+          "id": "act-013-04",
+          "type": "meeting_booked",
+          "timestamp": "2025-09-28T17:11:18Z",
+          "metadata": {
+            "meeting_type": "pricing_discussion",
+            "duration_minutes": 15
+          }
+        },
+        {
+          "id": "act-013-03",
+          "type": "meeting_booked",
+          "timestamp": "2025-09-20T01:11:18Z",
+          "metadata": {
+            "meeting_type": "discovery_call",
+            "duration_minutes": 30
+          }
+        }
+      ]
+    },
+    {
+      "contact": {
+        "id": "crm-014",
+        "name": "Penelope Martin",
+        "email": "penelope.martin@acmecorp.com",
+        "company": "Acme Corp",
+        "lifecycle_stage": "sql",
+        "last_activity": "2026-01-19T18:56:18Z",
+        "deal_value": 31251,
+        "source": "referral"
+      },
+      "activities": [
+        {
+          "id": "act-014-05",
+          "type": "email_opened",
+          "timestamp": "2026-01-19T18:56:18Z",
+          "metadata": {
+            "email_subject": "New features announcement"
+          }
+        },
+        {
+          "id": "act-014-02",
+          "type": "meeting_booked",
+          "timestamp": "2026-01-06T12:56:18Z",
+          "metadata": {
+            "meeting_type": "pricing_discussion",
+            "duration_minutes": 45
+          }
+        },
+        {
+          "id": "act-014-04",
+          "type": "form_submit",
+          "timestamp": "2026-01-03T01:56:18Z",
+          "metadata": {
+            "form_name": "contact_form"
+          }
+        },
+        {
+          "id": "act-014-07",
+          "type": "page_visit",
+          "timestamp": "2025-12-31T08:56:18Z",
+          "metadata": {
+            "page": "/about",
+            "duration_seconds": 218
+          }
+        },
+        {
+          "id": "act-014-03",
+          "type": "email_opened",
+          "timestamp": "2025-12-17T14:56:18Z",
+          "metadata": {
+            "email_subject": "Your account update"
+          }
+        },
+        {
+          "id": "act-014-06",
+          "type": "form_submit",
+          "timestamp": "2025-12-14T03:56:18Z",
+          "metadata": {
+            "form_name": "contact_form"
+          }
+        },
+        {
+          "id": "act-014-01",
+          "type": "email_opened",
+          "timestamp": "2025-12-05T05:56:18Z",
+          "metadata": {
+            "email_subject": "New features announcement"
+          }
+        }
+      ]
+    },
+    {
+      "contact": {
+        "id": "crm-015",
+        "name": "Michael Lee",
+        "email": "michael.lee@quantumlab.com",
+        "company": "Quantum Labs",
+        "lifecycle_stage": "sql",
+        "last_activity": "2025-11-17T16:14:18Z",
+        "deal_value": 28689,
+        "source": "organic"
+      },
+      "activities": [
+        {
+          "id": "act-015-03",
+          "type": "form_submit",
+          "timestamp": "2025-11-04T12:14:18Z",
+          "metadata": {
+            "form_name": "newsletter_signup"
+          }
+        },
+        {
+          "id": "act-015-07",
+          "type": "form_submit",
+          "timestamp": "2025-10-17T15:14:18Z",
+          "metadata": {
+            "form_name": "pricing_inquiry"
+          }
+        },
+        {
+          "id": "act-015-02",
+          "type": "meeting_booked",
+          "timestamp": "2025-10-13T23:14:18Z",
+          "metadata": {
+            "meeting_type": "technical_review",
+            "duration_minutes": 15
+          }
+        },
+        {
+          "id": "act-015-06",
+          "type": "page_visit",
+          "timestamp": "2025-10-13T00:14:18Z",
+          "metadata": {
+            "page": "/pricing",
+            "duration_seconds": 292
+          }
+        },
+        {
+          "id": "act-015-05",
+          "type": "page_visit",
+          "timestamp": "2025-10-01T17:14:18Z",
+          "metadata": {
+            "page": "/demo",
+            "duration_seconds": 22
+          }
+        },
+        {
+          "id": "act-015-04",
+          "type": "meeting_booked",
+          "timestamp": "2025-09-30T06:14:18Z",
+          "metadata": {
+            "meeting_type": "pricing_discussion",
+            "duration_minutes": 60
+          }
+        },
+        {
+          "id": "act-015-01",
+          "type": "form_submit",
+          "timestamp": "2025-09-25T07:14:18Z",
+          "metadata": {
+            "form_name": "pricing_inquiry"
+          }
+        }
+      ]
+    },
+    {
+      "contact": {
+        "id": "crm-016",
+        "name": "Daniel Martin",
+        "email": "daniel.martin@sparkinnov.com",
+        "company": "Spark Innovation",
+        "lifecycle_stage": "lead",
+        "last_activity": "2025-12-20T14:06:18Z",
+        "deal_value": 17578,
+        "source": "organic"
+      },
+      "activities": [
+        {
+          "id": "act-016-07",
+          "type": "meeting_booked",
+          "timestamp": "2025-12-18T23:06:18Z",
+          "metadata": {
+            "meeting_type": "technical_review",
+            "duration_minutes": 15
+          }
+        },
+        {
+          "id": "act-016-01",
+          "type": "form_submit",
+          "timestamp": "2025-11-27T17:06:18Z",
+          "metadata": {
+            "form_name": "demo_request"
+          }
+        },
+        {
+          "id": "act-016-05",
+          "type": "form_submit",
+          "timestamp": "2025-11-23T14:06:18Z",
+          "metadata": {
+            "form_name": "demo_request"
+          }
+        },
+        {
+          "id": "act-016-04",
+          "type": "meeting_booked",
+          "timestamp": "2025-11-23T01:06:18Z",
+          "metadata": {
+            "meeting_type": "discovery_call",
+            "duration_minutes": 30
+          }
+        },
+        {
+          "id": "act-016-06",
+          "type": "email_opened",
+          "timestamp": "2025-11-11T13:06:18Z",
+          "metadata": {
+            "email_subject": "Your account update"
+          }
+        },
+        {
+          "id": "act-016-02",
+          "type": "form_submit",
+          "timestamp": "2025-11-06T12:06:18Z",
+          "metadata": {
+            "form_name": "demo_request"
+          }
+        },
+        {
+          "id": "act-016-03",
+          "type": "page_visit",
+          "timestamp": "2025-11-05T09:06:18Z",
+          "metadata": {
+            "page": "/contact",
+            "duration_seconds": 139
+          }
+        }
+      ]
+    },
+    {
+      "contact": {
+        "id": "crm-017",
+        "name": "Chloe Thomas",
+        "email": "chloe.thomas@brightidea.com",
+        "company": "Bright Ideas Co",
+        "lifecycle_stage": "sql",
+        "last_activity": "2026-01-25T05:30:18Z",
+        "deal_value": 35359,
+        "source": "paid"
+      },
+      "activities": [
+        {
+          "id": "act-017-05",
+          "type": "meeting_booked",
+          "timestamp": "2026-01-22T09:30:18Z",
+          "metadata": {
+            "meeting_type": "pricing_discussion",
+            "duration_minutes": 60
+          }
+        },
+        {
+          "id": "act-017-01",
+          "type": "meeting_booked",
+          "timestamp": "2026-01-08T06:30:18Z",
+          "metadata": {
+            "meeting_type": "technical_review",
+            "duration_minutes": 60
+          }
+        },
+        {
+          "id": "act-017-03",
+          "type": "form_submit",
+          "timestamp": "2026-01-02T18:30:18Z",
+          "metadata": {
+            "form_name": "pricing_inquiry"
+          }
+        },
+        {
+          "id": "act-017-02",
+          "type": "form_submit",
+          "timestamp": "2025-12-25T08:30:18Z",
+          "metadata": {
+            "form_name": "pricing_inquiry"
+          }
+        },
+        {
+          "id": "act-017-04",
+          "type": "email_opened",
+          "timestamp": "2025-12-10T04:30:18Z",
+          "metadata": {
+            "email_subject": "New features announcement"
+          }
+        }
+      ]
+    },
+    {
+      "contact": {
+        "id": "crm-018",
+        "name": "Isabella Anderson",
+        "email": "isabella.anderson@atlasindus.com",
+        "company": "Atlas Industries",
+        "lifecycle_stage": "mql",
+        "last_activity": "2025-12-09T22:44:18Z",
+        "deal_value": 31539,
+        "source": "referral"
+      },
+      "activities": [
+        {
+          "id": "act-018-02",
+          "type": "page_visit",
+          "timestamp": "2025-12-08T03:44:18Z",
+          "metadata": {
+            "page": "/case-studies",
+            "duration_seconds": 133
+          }
+        },
+        {
+          "id": "act-018-03",
+          "type": "page_visit",
+          "timestamp": "2025-11-11T00:44:18Z",
+          "metadata": {
+            "page": "/about",
+            "duration_seconds": 209
+          }
+        },
+        {
+          "id": "act-018-01",
+          "type": "meeting_booked",
+          "timestamp": "2025-10-27T17:44:18Z",
+          "metadata": {
+            "meeting_type": "demo",
+            "duration_minutes": 45
+          }
+        }
+      ]
+    },
+    {
+      "contact": {
+        "id": "crm-019",
+        "name": "Riley Moore",
+        "email": "riley.moore@dataflowsy.com",
+        "company": "DataFlow Systems",
+        "lifecycle_stage": "customer",
+        "last_activity": "2025-11-13T03:54:18Z",
+        "deal_value": 50964,
+        "source": "direct"
+      },
+      "activities": [
+        {
+          "id": "act-019-03",
+          "type": "page_visit",
+          "timestamp": "2025-11-01T02:54:18Z",
+          "metadata": {
+            "page": "/about",
+            "duration_seconds": 258
+          }
+        },
+        {
+          "id": "act-019-02",
+          "type": "form_submit",
+          "timestamp": "2025-09-25T06:54:18Z",
+          "metadata": {
+            "form_name": "newsletter_signup"
+          }
+        },
+        {
+          "id": "act-019-01",
+          "type": "form_submit",
+          "timestamp": "2025-09-23T11:54:18Z",
+          "metadata": {
+            "form_name": "demo_request"
+          }
+        }
+      ]
+    },
+    {
+      "contact": {
+        "id": "crm-020",
+        "name": "John Smith",
+        "email": "john.smith@globalsolu.com",
+        "company": "Global Solutions",
+        "lifecycle_stage": "lead",
+        "last_activity": "2026-01-29T14:34:18Z",
+        "deal_value": 3663,
+        "source": "organic"
+      },
+      "activities": [
+        {
+          "id": "act-020-02",
+          "type": "meeting_booked",
+          "timestamp": "2026-01-18T05:34:18Z",
+          "metadata": {
+            "meeting_type": "pricing_discussion",
+            "duration_minutes": 60
+          }
+        },
+        {
+          "id": "act-020-03",
+          "type": "email_opened",
+          "timestamp": "2025-12-30T04:34:18Z",
+          "metadata": {
+            "email_subject": "Your demo is ready"
+          }
+        },
+        {
+          "id": "act-020-04",
+          "type": "page_visit",
+          "timestamp": "2025-12-25T19:34:18Z",
+          "metadata": {
+            "page": "/about",
+            "duration_seconds": 84
+          }
+        },
+        {
+          "id": "act-020-01",
+          "type": "page_visit",
+          "timestamp": "2025-12-06T12:34:18Z",
+          "metadata": {
+            "page": "/case-studies",
+            "duration_seconds": 36
+          }
+        }
+      ]
+    },
+    {
+      "contact": {
+        "id": "crm-021",
+        "name": "Lucas Martin",
+        "email": "lucas.martin@atlasindus.com",
+        "company": "Atlas Industries",
+        "lifecycle_stage": "mql",
+        "last_activity": "2025-12-24T20:43:18Z",
+        "deal_value": 18056,
+        "source": "paid"
+      },
+      "activities": [
+        {
+          "id": "act-021-03",
+          "type": "form_submit",
+          "timestamp": "2025-12-15T05:43:18Z",
+          "metadata": {
+            "form_name": "newsletter_signup"
+          }
+        },
+        {
+          "id": "act-021-05",
+          "type": "form_submit",
+          "timestamp": "2025-12-09T22:43:18Z",
+          "metadata": {
+            "form_name": "demo_request"
+          }
+        },
+        {
+          "id": "act-021-01",
+          "type": "page_visit",
+          "timestamp": "2025-12-09T09:43:18Z",
+          "metadata": {
+            "page": "/demo",
+            "duration_seconds": 140
+          }
+        },
+        {
+          "id": "act-021-02",
+          "type": "email_opened",
+          "timestamp": "2025-11-26T07:43:18Z",
+          "metadata": {
+            "email_subject": "Follow-up from our call"
+          }
+        },
+        {
+          "id": "act-021-04",
+          "type": "page_visit",
+          "timestamp": "2025-11-12T18:43:18Z",
+          "metadata": {
+            "page": "/pricing",
+            "duration_seconds": 100
+          }
+        },
+        {
+          "id": "act-021-06",
+          "type": "meeting_booked",
+          "timestamp": "2025-11-02T03:43:18Z",
+          "metadata": {
+            "meeting_type": "technical_review",
+            "duration_minutes": 60
+          }
+        }
+      ]
+    },
+    {
+      "contact": {
+        "id": "crm-022",
+        "name": "Sebastian Lee",
+        "email": "sebastian.lee@dataflowsy.com",
+        "company": "DataFlow Systems",
+        "lifecycle_stage": "mql",
+        "last_activity": "2025-11-29T21:13:18Z",
+        "deal_value": 23057,
+        "source": "referral"
+      },
+      "activities": [
+        {
+          "id": "act-022-02",
+          "type": "page_visit",
+          "timestamp": "2025-11-29T00:13:18Z",
+          "metadata": {
+            "page": "/",
+            "duration_seconds": 175
+          }
+        },
+        {
+          "id": "act-022-01",
+          "type": "email_opened",
+          "timestamp": "2025-11-28T23:13:18Z",
+          "metadata": {
+            "email_subject": "New features announcement"
+          }
+        },
+        {
+          "id": "act-022-03",
+          "type": "form_submit",
+          "timestamp": "2025-11-26T16:13:18Z",
+          "metadata": {
+            "form_name": "demo_request"
+          }
+        },
+        {
+          "id": "act-022-04",
+          "type": "form_submit",
+          "timestamp": "2025-11-17T09:13:18Z",
+          "metadata": {
+            "form_name": "pricing_inquiry"
+          }
+        }
+      ]
+    },
+    {
+      "contact": {
+        "id": "crm-023",
+        "name": "Harper White",
+        "email": "harper.white@atlasindus.com",
+        "company": "Atlas Industries",
+        "lifecycle_stage": "mql",
+        "last_activity": "2026-01-06T16:50:18Z",
+        "deal_value": 20588,
+        "source": "paid"
+      },
+      "activities": [
+        {
+          "id": "act-023-03",
+          "type": "meeting_booked",
+          "timestamp": "2026-01-06T09:50:18Z",
+          "metadata": {
+            "meeting_type": "demo",
+            "duration_minutes": 15
+          }
+        },
+        {
+          "id": "act-023-05",
+          "type": "form_submit",
+          "timestamp": "2026-01-02T15:50:18Z",
+          "metadata": {
+            "form_name": "contact_form"
+          }
+        },
+        {
+          "id": "act-023-02",
+          "type": "meeting_booked",
+          "timestamp": "2025-12-16T13:50:18Z",
+          "metadata": {
+            "meeting_type": "technical_review",
+            "duration_minutes": 30
+          }
+        },
+        {
+          "id": "act-023-04",
+          "type": "page_visit",
+          "timestamp": "2025-11-30T13:50:18Z",
+          "metadata": {
+            "page": "/blog",
+            "duration_seconds": 76
+          }
+        },
+        {
+          "id": "act-023-01",
+          "type": "email_opened",
+          "timestamp": "2025-11-18T02:50:18Z",
+          "metadata": {
+            "email_subject": "Syntriq: Getting started guide"
+          }
+        }
+      ]
+    },
+    {
+      "contact": {
+        "id": "crm-024",
+        "name": "John Jones",
+        "email": "john.jones@sparkinnov.com",
+        "company": "Spark Innovation",
+        "lifecycle_stage": "mql",
+        "last_activity": "2025-11-10T11:46:18Z",
+        "deal_value": 39352,
+        "source": "paid"
+      },
+      "activities": [
+        {
+          "id": "act-024-06",
+          "type": "email_opened",
+          "timestamp": "2025-10-13T00:46:18Z",
+          "metadata": {
+            "email_subject": "New features announcement"
+          }
+        },
+        {
+          "id": "act-024-03",
+          "type": "form_submit",
+          "timestamp": "2025-10-08T21:46:18Z",
+          "metadata": {
+            "form_name": "newsletter_signup"
+          }
+        },
+        {
+          "id": "act-024-04",
+          "type": "email_opened",
+          "timestamp": "2025-10-03T23:46:18Z",
+          "metadata": {
+            "email_subject": "Your account update"
+          }
+        },
+        {
+          "id": "act-024-05",
+          "type": "email_opened",
+          "timestamp": "2025-10-02T18:46:18Z",
+          "metadata": {
+            "email_subject": "Your account update"
+          }
+        },
+        {
+          "id": "act-024-01",
+          "type": "email_opened",
+          "timestamp": "2025-09-19T12:46:18Z",
+          "metadata": {
+            "email_subject": "Your account update"
+          }
+        },
+        {
+          "id": "act-024-02",
+          "type": "form_submit",
+          "timestamp": "2025-09-12T22:46:18Z",
+          "metadata": {
+            "form_name": "pricing_inquiry"
+          }
+        }
+      ]
+    },
+    {
+      "contact": {
+        "id": "crm-025",
+        "name": "Alexander Davis",
+        "email": "alexander.davis@quantumlab.com",
+        "company": "Quantum Labs",
+        "lifecycle_stage": "lead",
+        "last_activity": "2025-12-26T14:28:18Z",
+        "deal_value": 7814,
+        "source": "organic"
+      },
+      "activities": [
+        {
+          "id": "act-025-05",
+          "type": "form_submit",
+          "timestamp": "2025-12-16T03:28:18Z",
+          "metadata": {
+            "form_name": "pricing_inquiry"
+          }
+        },
+        {
+          "id": "act-025-03",
+          "type": "form_submit",
+          "timestamp": "2025-11-17T16:28:18Z",
+          "metadata": {
+            "form_name": "demo_request"
+          }
+        },
+        {
+          "id": "act-025-04",
+          "type": "email_opened",
+          "timestamp": "2025-11-11T15:28:18Z",
+          "metadata": {
+            "email_subject": "New features announcement"
+          }
+        },
+        {
+          "id": "act-025-06",
+          "type": "page_visit",
+          "timestamp": "2025-11-11T13:28:18Z",
+          "metadata": {
+            "page": "/about",
+            "duration_seconds": 140
+          }
+        },
+        {
+          "id": "act-025-02",
+          "type": "meeting_booked",
+          "timestamp": "2025-10-31T02:28:18Z",
+          "metadata": {
+            "meeting_type": "pricing_discussion",
+            "duration_minutes": 30
+          }
+        },
+        {
+          "id": "act-025-01",
+          "type": "meeting_booked",
+          "timestamp": "2025-10-26T22:28:18Z",
+          "metadata": {
+            "meeting_type": "technical_review",
+            "duration_minutes": 30
+          }
+        }
+      ]
+    },
+    {
+      "contact": {
+        "id": "crm-026",
+        "name": "Michael Jackson",
+        "email": "michael.jackson@pioneertec.com",
+        "company": "Pioneer Tech",
+        "lifecycle_stage": "sql",
+        "last_activity": "2026-01-23T23:59:18Z",
+        "deal_value": 48462,
+        "source": "direct"
+      },
+      "activities": [
+        {
+          "id": "act-026-03",
+          "type": "email_opened",
+          "timestamp": "2026-01-18T16:59:18Z",
+          "metadata": {
+            "email_subject": "New features announcement"
+          }
+        },
+        {
+          "id": "act-026-02",
+          "type": "form_submit",
+          "timestamp": "2026-01-07T00:59:18Z",
+          "metadata": {
+            "form_name": "demo_request"
+          }
+        },
+        {
+          "id": "act-026-01",
+          "type": "meeting_booked",
+          "timestamp": "2025-12-12T12:59:18Z",
+          "metadata": {
+            "meeting_type": "discovery_call",
+            "duration_minutes": 15
+          }
+        }
+      ]
+    },
+    {
+      "contact": {
+        "id": "crm-027",
+        "name": "Daniel Martinez",
+        "email": "daniel.martinez@quantumlab.com",
+        "company": "Quantum Labs",
+        "lifecycle_stage": "mql",
+        "last_activity": "2026-01-31T08:59:18Z",
+        "deal_value": 25767,
+        "source": "organic"
+      },
+      "activities": [
+        {
+          "id": "act-027-01",
+          "type": "form_submit",
+          "timestamp": "2026-01-26T14:59:18Z",
+          "metadata": {
+            "form_name": "pricing_inquiry"
+          }
+        },
+        {
+          "id": "act-027-04",
+          "type": "meeting_booked",
+          "timestamp": "2026-01-20T02:59:18Z",
+          "metadata": {
+            "meeting_type": "discovery_call",
+            "duration_minutes": 30
+          }
+        },
+        {
+          "id": "act-027-02",
+          "type": "email_opened",
+          "timestamp": "2025-12-28T09:59:18Z",
+          "metadata": {
+            "email_subject": "Follow-up from our call"
+          }
+        },
+        {
+          "id": "act-027-03",
+          "type": "page_visit",
+          "timestamp": "2025-12-15T07:59:18Z",
+          "metadata": {
+            "page": "/demo",
+            "duration_seconds": 247
+          }
+        },
+        {
+          "id": "act-027-05",
+          "type": "meeting_booked",
+          "timestamp": "2025-12-04T11:59:18Z",
+          "metadata": {
+            "meeting_type": "technical_review",
+            "duration_minutes": 45
+          }
+        }
+      ]
+    },
+    {
+      "contact": {
+        "id": "crm-028",
+        "name": "Ethan Taylor",
+        "email": "ethan.taylor@horizongro.com",
+        "company": "Horizon Group",
+        "lifecycle_stage": "lead",
+        "last_activity": "2025-11-29T09:40:18Z",
+        "deal_value": 12955,
+        "source": "referral"
+      },
+      "activities": [
+        {
+          "id": "act-028-04",
+          "type": "meeting_booked",
+          "timestamp": "2025-11-26T20:40:18Z",
+          "metadata": {
+            "meeting_type": "discovery_call",
+            "duration_minutes": 30
+          }
+        },
+        {
+          "id": "act-028-05",
+          "type": "page_visit",
+          "timestamp": "2025-11-25T19:40:18Z",
+          "metadata": {
+            "page": "/features",
+            "duration_seconds": 249
+          }
+        },
+        {
+          "id": "act-028-06",
+          "type": "form_submit",
+          "timestamp": "2025-11-01T10:40:18Z",
+          "metadata": {
+            "form_name": "contact_form"
+          }
+        },
+        {
+          "id": "act-028-01",
+          "type": "email_opened",
+          "timestamp": "2025-10-23T21:40:18Z",
+          "metadata": {
+            "email_subject": "Syntriq: Getting started guide"
+          }
+        },
+        {
+          "id": "act-028-02",
+          "type": "form_submit",
+          "timestamp": "2025-10-23T06:40:18Z",
+          "metadata": {
+            "form_name": "pricing_inquiry"
+          }
+        },
+        {
+          "id": "act-028-03",
+          "type": "form_submit",
+          "timestamp": "2025-10-08T22:40:18Z",
+          "metadata": {
+            "form_name": "pricing_inquiry"
+          }
+        }
+      ]
+    },
+    {
+      "contact": {
+        "id": "crm-029",
+        "name": "Luna Taylor",
+        "email": "luna.taylor@apexconsul.com",
+        "company": "Apex Consulting",
+        "lifecycle_stage": "lead",
+        "last_activity": "2025-11-15T21:11:18Z",
+        "deal_value": 24480,
+        "source": "referral"
+      },
+      "activities": [
+        {
+          "id": "act-029-02",
+          "type": "email_opened",
+          "timestamp": "2025-11-14T13:11:18Z",
+          "metadata": {
+            "email_subject": "Your account update"
+          }
+        },
+        {
+          "id": "act-029-04",
+          "type": "form_submit",
+          "timestamp": "2025-11-04T03:11:18Z",
+          "metadata": {
+            "form_name": "pricing_inquiry"
+          }
+        },
+        {
+          "id": "act-029-03",
+          "type": "meeting_booked",
+          "timestamp": "2025-10-04T01:11:18Z",
+          "metadata": {
+            "meeting_type": "pricing_discussion",
+            "duration_minutes": 60
+          }
+        },
+        {
+          "id": "act-029-01",
+          "type": "form_submit",
+          "timestamp": "2025-09-24T06:11:18Z",
+          "metadata": {
+            "form_name": "contact_form"
+          }
+        }
+      ]
+    },
+    {
+      "contact": {
+        "id": "crm-030",
+        "name": "Jack Brown",
+        "email": "jack.brown@techstarti.com",
+        "company": "TechStart Inc",
+        "lifecycle_stage": "mql",
+        "last_activity": "2025-12-04T23:39:18Z",
+        "deal_value": 25248,
+        "source": "referral"
+      },
+      "activities": [
+        {
+          "id": "act-030-04",
+          "type": "meeting_booked",
+          "timestamp": "2025-11-29T20:39:18Z",
+          "metadata": {
+            "meeting_type": "pricing_discussion",
+            "duration_minutes": 45
+          }
+        },
+        {
+          "id": "act-030-01",
+          "type": "form_submit",
+          "timestamp": "2025-10-27T23:39:18Z",
+          "metadata": {
+            "form_name": "contact_form"
+          }
+        },
+        {
+          "id": "act-030-02",
+          "type": "page_visit",
+          "timestamp": "2025-10-23T17:39:18Z",
+          "metadata": {
+            "page": "/about",
+            "duration_seconds": 179
+          }
+        },
+        {
+          "id": "act-030-03",
+          "type": "email_opened",
+          "timestamp": "2025-10-18T21:39:18Z",
+          "metadata": {
+            "email_subject": "Syntriq: Getting started guide"
+          }
+        }
+      ]
+    },
+    {
+      "contact": {
+        "id": "crm-031",
+        "name": "Ethan Smith",
+        "email": "ethan.smith@brightidea.com",
+        "company": "Bright Ideas Co",
+        "lifecycle_stage": "lead",
+        "last_activity": "2025-12-08T03:29:18Z",
+        "deal_value": 7609,
+        "source": "organic"
+      },
+      "activities": [
+        {
+          "id": "act-031-04",
+          "type": "page_visit",
+          "timestamp": "2025-12-05T19:29:18Z",
+          "metadata": {
+            "page": "/blog",
+            "duration_seconds": 66
+          }
+        },
+        {
+          "id": "act-031-03",
+          "type": "meeting_booked",
+          "timestamp": "2025-11-16T01:29:18Z",
+          "metadata": {
+            "meeting_type": "pricing_discussion",
+            "duration_minutes": 45
+          }
+        },
+        {
+          "id": "act-031-01",
+          "type": "email_opened",
+          "timestamp": "2025-11-13T14:29:18Z",
+          "metadata": {
+            "email_subject": "Your demo is ready"
+          }
+        },
+        {
+          "id": "act-031-05",
+          "type": "form_submit",
+          "timestamp": "2025-11-13T02:29:18Z",
+          "metadata": {
+            "form_name": "newsletter_signup"
+          }
+        },
+        {
+          "id": "act-031-06",
+          "type": "form_submit",
+          "timestamp": "2025-11-04T11:29:18Z",
+          "metadata": {
+            "form_name": "demo_request"
+          }
+        },
+        {
+          "id": "act-031-02",
+          "type": "meeting_booked",
+          "timestamp": "2025-10-24T17:29:18Z",
+          "metadata": {
+            "meeting_type": "pricing_discussion",
+            "duration_minutes": 60
+          }
+        }
+      ]
+    },
+    {
+      "contact": {
+        "id": "crm-032",
+        "name": "Jack Rodriguez",
+        "email": "jack.rodriguez@horizongro.com",
+        "company": "Horizon Group",
+        "lifecycle_stage": "lead",
+        "last_activity": "2026-01-29T18:56:18Z",
+        "deal_value": 24194,
+        "source": "organic"
+      },
+      "activities": [
+        {
+          "id": "act-032-01",
+          "type": "page_visit",
+          "timestamp": "2026-01-13T12:56:18Z",
+          "metadata": {
+            "page": "/demo",
+            "duration_seconds": 34
+          }
+        },
+        {
+          "id": "act-032-02",
+          "type": "page_visit",
+          "timestamp": "2025-11-30T01:56:18Z",
+          "metadata": {
+            "page": "/case-studies",
+            "duration_seconds": 221
+          }
+        }
+      ]
+    },
+    {
+      "contact": {
+        "id": "crm-033",
+        "name": "James Anderson",
+        "email": "james.anderson@nexusdigit.com",
+        "company": "Nexus Digital",
+        "lifecycle_stage": "sql",
+        "last_activity": "2025-11-21T07:09:18Z",
+        "deal_value": 49628,
+        "source": "direct"
+      },
+      "activities": [
+        {
+          "id": "act-033-05",
+          "type": "meeting_booked",
+          "timestamp": "2025-11-19T16:09:18Z",
+          "metadata": {
+            "meeting_type": "discovery_call",
+            "duration_minutes": 30
+          }
+        },
+        {
+          "id": "act-033-04",
+          "type": "page_visit",
+          "timestamp": "2025-11-05T00:09:18Z",
+          "metadata": {
+            "page": "/case-studies",
+            "duration_seconds": 157
+          }
+        },
+        {
+          "id": "act-033-03",
+          "type": "meeting_booked",
+          "timestamp": "2025-11-04T11:09:18Z",
+          "metadata": {
+            "meeting_type": "discovery_call",
+            "duration_minutes": 15
+          }
+        },
+        {
+          "id": "act-033-07",
+          "type": "page_visit",
+          "timestamp": "2025-10-27T22:09:18Z",
+          "metadata": {
+            "page": "/contact",
+            "duration_seconds": 43
+          }
+        },
+        {
+          "id": "act-033-08",
+          "type": "meeting_booked",
+          "timestamp": "2025-10-13T13:09:18Z",
+          "metadata": {
+            "meeting_type": "discovery_call",
+            "duration_minutes": 15
+          }
+        },
+        {
+          "id": "act-033-01",
+          "type": "email_opened",
+          "timestamp": "2025-10-03T05:09:18Z",
+          "metadata": {
+            "email_subject": "Your demo is ready"
+          }
+        },
+        {
+          "id": "act-033-06",
+          "type": "page_visit",
+          "timestamp": "2025-10-01T12:09:18Z",
+          "metadata": {
+            "page": "/",
+            "duration_seconds": 298
+          }
+        },
+        {
+          "id": "act-033-02",
+          "type": "page_visit",
+          "timestamp": "2025-09-25T06:09:18Z",
+          "metadata": {
+            "page": "/case-studies",
+            "duration_seconds": 205
+          }
+        }
+      ]
+    },
+    {
+      "contact": {
+        "id": "crm-034",
+        "name": "Luna Jones",
+        "email": "luna.jones@techstarti.com",
+        "company": "TechStart Inc",
+        "lifecycle_stage": "sql",
+        "last_activity": "2025-11-18T23:11:18Z",
+        "deal_value": 40624,
+        "source": "direct"
+      },
+      "activities": [
+        {
+          "id": "act-034-05",
+          "type": "meeting_booked",
+          "timestamp": "2025-11-10T11:11:18Z",
+          "metadata": {
+            "meeting_type": "discovery_call",
+            "duration_minutes": 30
+          }
+        },
+        {
+          "id": "act-034-04",
+          "type": "meeting_booked",
+          "timestamp": "2025-10-22T07:11:18Z",
+          "metadata": {
+            "meeting_type": "demo",
+            "duration_minutes": 60
+          }
+        },
+        {
+          "id": "act-034-03",
+          "type": "email_opened",
+          "timestamp": "2025-10-10T17:11:18Z",
+          "metadata": {
+            "email_subject": "Syntriq: Getting started guide"
+          }
+        },
+        {
+          "id": "act-034-01",
+          "type": "page_visit",
+          "timestamp": "2025-10-02T19:11:18Z",
+          "metadata": {
+            "page": "/about",
+            "duration_seconds": 202
+          }
+        },
+        {
+          "id": "act-034-02",
+          "type": "email_opened",
+          "timestamp": "2025-09-30T02:11:18Z",
+          "metadata": {
+            "email_subject": "Your account update"
+          }
+        }
+      ]
+    },
+    {
+      "contact": {
+        "id": "crm-035",
+        "name": "John Martin",
+        "email": "john.martin@velocitypa.com",
+        "company": "Velocity Partners",
+        "lifecycle_stage": "sql",
+        "last_activity": "2025-12-28T16:01:18Z",
+        "deal_value": 48300,
+        "source": "referral"
+      },
+      "activities": [
+        {
+          "id": "act-035-02",
+          "type": "email_opened",
+          "timestamp": "2025-12-19T16:01:18Z",
+          "metadata": {
+            "email_subject": "Your demo is ready"
+          }
+        },
+        {
+          "id": "act-035-03",
+          "type": "email_opened",
+          "timestamp": "2025-12-19T10:01:18Z",
+          "metadata": {
+            "email_subject": "Syntriq: Getting started guide"
+          }
+        },
+        {
+          "id": "act-035-07",
+          "type": "email_opened",
+          "timestamp": "2025-12-14T10:01:18Z",
+          "metadata": {
+            "email_subject": "New features announcement"
+          }
+        },
+        {
+          "id": "act-035-06",
+          "type": "email_opened",
+          "timestamp": "2025-12-08T08:01:18Z",
+          "metadata": {
+            "email_subject": "Syntriq: Getting started guide"
+          }
+        },
+        {
+          "id": "act-035-05",
+          "type": "meeting_booked",
+          "timestamp": "2025-11-30T18:01:18Z",
+          "metadata": {
+            "meeting_type": "demo",
+            "duration_minutes": 45
+          }
+        },
+        {
+          "id": "act-035-01",
+          "type": "email_opened",
+          "timestamp": "2025-11-29T17:01:18Z",
+          "metadata": {
+            "email_subject": "Syntriq: Getting started guide"
+          }
+        },
+        {
+          "id": "act-035-04",
+          "type": "page_visit",
+          "timestamp": "2025-11-12T00:01:18Z",
+          "metadata": {
+            "page": "/pricing",
+            "duration_seconds": 15
+          }
+        }
+      ]
+    },
+    {
+      "contact": {
+        "id": "crm-036",
+        "name": "Ethan Garcia",
+        "email": "ethan.garcia@techstarti.com",
+        "company": "TechStart Inc",
+        "lifecycle_stage": "lead",
+        "last_activity": "2026-01-30T01:02:18Z",
+        "deal_value": 15436,
+        "source": "referral"
+      },
+      "activities": [
+        {
+          "id": "act-036-05",
+          "type": "meeting_booked",
+          "timestamp": "2026-01-29T14:02:18Z",
+          "metadata": {
+            "meeting_type": "demo",
+            "duration_minutes": 30
+          }
+        },
+        {
+          "id": "act-036-03",
+          "type": "meeting_booked",
+          "timestamp": "2025-12-21T14:02:18Z",
+          "metadata": {
+            "meeting_type": "demo",
+            "duration_minutes": 60
+          }
+        },
+        {
+          "id": "act-036-01",
+          "type": "meeting_booked",
+          "timestamp": "2025-12-14T01:02:18Z",
+          "metadata": {
+            "meeting_type": "demo",
+            "duration_minutes": 60
+          }
+        },
+        {
+          "id": "act-036-02",
+          "type": "meeting_booked",
+          "timestamp": "2025-12-08T11:02:18Z",
+          "metadata": {
+            "meeting_type": "demo",
+            "duration_minutes": 15
+          }
+        },
+        {
+          "id": "act-036-04",
+          "type": "email_opened",
+          "timestamp": "2025-12-02T15:02:18Z",
+          "metadata": {
+            "email_subject": "Syntriq: Getting started guide"
+          }
+        }
+      ]
+    },
+    {
+      "contact": {
+        "id": "crm-037",
+        "name": "Isabella Brown",
+        "email": "isabella.brown@brightidea.com",
+        "company": "Bright Ideas Co",
+        "lifecycle_stage": "lead",
+        "last_activity": "2026-01-14T23:43:18Z",
+        "deal_value": 21542,
+        "source": "paid"
+      },
+      "activities": [
+        {
+          "id": "act-037-01",
+          "type": "email_opened",
+          "timestamp": "2025-12-29T11:43:18Z",
+          "metadata": {
+            "email_subject": "Follow-up from our call"
+          }
+        },
+        {
+          "id": "act-037-02",
+          "type": "page_visit",
+          "timestamp": "2025-12-24T12:43:18Z",
+          "metadata": {
+            "page": "/blog",
+            "duration_seconds": 51
+          }
+        },
+        {
+          "id": "act-037-03",
+          "type": "form_submit",
+          "timestamp": "2025-12-08T02:43:18Z",
+          "metadata": {
+            "form_name": "contact_form"
+          }
+        },
+        {
+          "id": "act-037-04",
+          "type": "page_visit",
+          "timestamp": "2025-11-24T16:43:18Z",
+          "metadata": {
+            "page": "/blog",
+            "duration_seconds": 220
+          }
+        }
+      ]
+    },
+    {
+      "contact": {
+        "id": "crm-038",
+        "name": "Lucas Thompson",
+        "email": "lucas.thompson@techstarti.com",
+        "company": "TechStart Inc",
+        "lifecycle_stage": "lead",
+        "last_activity": "2025-12-18T14:51:18Z",
+        "deal_value": 2793,
+        "source": "referral"
+      },
+      "activities": [
+        {
+          "id": "act-038-07",
+          "type": "form_submit",
+          "timestamp": "2025-12-18T10:51:18Z",
+          "metadata": {
+            "form_name": "pricing_inquiry"
+          }
+        },
+        {
+          "id": "act-038-03",
+          "type": "email_opened",
+          "timestamp": "2025-12-03T19:51:18Z",
+          "metadata": {
+            "email_subject": "Follow-up from our call"
+          }
+        },
+        {
+          "id": "act-038-04",
+          "type": "email_opened",
+          "timestamp": "2025-11-25T14:51:18Z",
+          "metadata": {
+            "email_subject": "Your demo is ready"
+          }
+        },
+        {
+          "id": "act-038-05",
+          "type": "meeting_booked",
+          "timestamp": "2025-11-22T16:51:18Z",
+          "metadata": {
+            "meeting_type": "demo",
+            "duration_minutes": 45
+          }
+        },
+        {
+          "id": "act-038-01",
+          "type": "page_visit",
+          "timestamp": "2025-11-10T10:51:18Z",
+          "metadata": {
+            "page": "/about",
+            "duration_seconds": 36
+          }
+        },
+        {
+          "id": "act-038-02",
+          "type": "page_visit",
+          "timestamp": "2025-11-06T22:51:18Z",
+          "metadata": {
+            "page": "/blog",
+            "duration_seconds": 129
+          }
+        },
+        {
+          "id": "act-038-06",
+          "type": "form_submit",
+          "timestamp": "2025-10-30T10:51:18Z",
+          "metadata": {
+            "form_name": "contact_form"
+          }
+        }
+      ]
+    },
+    {
+      "contact": {
+        "id": "crm-039",
+        "name": "William Miller",
+        "email": "william.miller@techstarti.com",
+        "company": "TechStart Inc",
+        "lifecycle_stage": "opportunity",
+        "last_activity": "2026-02-02T00:39:18Z",
+        "deal_value": 64530,
+        "source": "direct"
+      },
+      "activities": [
+        {
+          "id": "act-039-02",
+          "type": "meeting_booked",
+          "timestamp": "2026-01-23T00:39:18Z",
+          "metadata": {
+            "meeting_type": "discovery_call",
+            "duration_minutes": 30
+          }
+        },
+        {
+          "id": "act-039-03",
+          "type": "email_opened",
+          "timestamp": "2026-01-22T02:39:18Z",
+          "metadata": {
+            "email_subject": "Your demo is ready"
+          }
+        },
+        {
+          "id": "act-039-05",
+          "type": "meeting_booked",
+          "timestamp": "2026-01-11T22:39:18Z",
+          "metadata": {
+            "meeting_type": "technical_review",
+            "duration_minutes": 30
+          }
+        },
+        {
+          "id": "act-039-06",
+          "type": "page_visit",
+          "timestamp": "2026-01-09T03:39:18Z",
+          "metadata": {
+            "page": "/features",
+            "duration_seconds": 52
+          }
+        },
+        {
+          "id": "act-039-07",
+          "type": "meeting_booked",
+          "timestamp": "2026-01-03T18:39:18Z",
+          "metadata": {
+            "meeting_type": "pricing_discussion",
+            "duration_minutes": 15
+          }
+        },
+        {
+          "id": "act-039-04",
+          "type": "email_opened",
+          "timestamp": "2026-01-02T13:39:18Z",
+          "metadata": {
+            "email_subject": "Syntriq: Getting started guide"
+          }
+        },
+        {
+          "id": "act-039-08",
+          "type": "page_visit",
+          "timestamp": "2025-12-19T00:39:18Z",
+          "metadata": {
+            "page": "/",
+            "duration_seconds": 196
+          }
+        },
+        {
+          "id": "act-039-01",
+          "type": "meeting_booked",
+          "timestamp": "2025-12-08T23:39:18Z",
+          "metadata": {
+            "meeting_type": "pricing_discussion",
+            "duration_minutes": 60
+          }
+        }
+      ]
+    },
+    {
+      "contact": {
+        "id": "crm-040",
+        "name": "Noah Brown",
+        "email": "noah.brown@horizongro.com",
+        "company": "Horizon Group",
+        "lifecycle_stage": "lead",
+        "last_activity": "2025-11-26T23:48:18Z",
+        "deal_value": 22504,
+        "source": "organic"
+      },
+      "activities": [
+        {
+          "id": "act-040-03",
+          "type": "form_submit",
+          "timestamp": "2025-11-22T21:48:18Z",
+          "metadata": {
+            "form_name": "contact_form"
+          }
+        },
+        {
+          "id": "act-040-05",
+          "type": "email_opened",
+          "timestamp": "2025-11-14T16:48:18Z",
+          "metadata": {
+            "email_subject": "Your account update"
+          }
+        },
+        {
+          "id": "act-040-02",
+          "type": "page_visit",
+          "timestamp": "2025-11-11T06:48:18Z",
+          "metadata": {
+            "page": "/",
+            "duration_seconds": 38
+          }
+        },
+        {
+          "id": "act-040-08",
+          "type": "page_visit",
+          "timestamp": "2025-10-30T23:48:18Z",
+          "metadata": {
+            "page": "/case-studies",
+            "duration_seconds": 294
+          }
+        },
+        {
+          "id": "act-040-04",
+          "type": "form_submit",
+          "timestamp": "2025-10-25T18:48:18Z",
+          "metadata": {
+            "form_name": "pricing_inquiry"
+          }
+        },
+        {
+          "id": "act-040-01",
+          "type": "form_submit",
+          "timestamp": "2025-10-18T08:48:18Z",
+          "metadata": {
+            "form_name": "newsletter_signup"
+          }
+        },
+        {
+          "id": "act-040-07",
+          "type": "page_visit",
+          "timestamp": "2025-10-17T14:48:18Z",
+          "metadata": {
+            "page": "/demo",
+            "duration_seconds": 279
+          }
+        },
+        {
+          "id": "act-040-06",
+          "type": "form_submit",
+          "timestamp": "2025-10-04T18:48:18Z",
+          "metadata": {
+            "form_name": "pricing_inquiry"
+          }
+        }
+      ]
+    },
+    {
+      "contact": {
+        "id": "crm-041",
+        "name": "Noah Thompson",
+        "email": "noah.thompson@horizongro.com",
+        "company": "Horizon Group",
+        "lifecycle_stage": "lead",
+        "last_activity": "2025-12-31T19:26:18Z",
+        "deal_value": 23473,
+        "source": "referral"
+      },
+      "activities": [
+        {
+          "id": "act-041-03",
+          "type": "meeting_booked",
+          "timestamp": "2025-12-29T00:26:18Z",
+          "metadata": {
+            "meeting_type": "demo",
+            "duration_minutes": 15
+          }
+        },
+        {
+          "id": "act-041-01",
+          "type": "meeting_booked",
+          "timestamp": "2025-12-08T21:26:18Z",
+          "metadata": {
+            "meeting_type": "demo",
+            "duration_minutes": 45
+          }
+        },
+        {
+          "id": "act-041-04",
+          "type": "email_opened",
+          "timestamp": "2025-11-27T20:26:18Z",
+          "metadata": {
+            "email_subject": "New features announcement"
+          }
+        },
+        {
+          "id": "act-041-02",
+          "type": "meeting_booked",
+          "timestamp": "2025-11-07T02:26:18Z",
+          "metadata": {
+            "meeting_type": "technical_review",
+            "duration_minutes": 45
+          }
+        }
+      ]
+    },
+    {
+      "contact": {
+        "id": "crm-042",
+        "name": "Daniel White",
+        "email": "daniel.white@acmecorp.com",
+        "company": "Acme Corp",
+        "lifecycle_stage": "mql",
+        "last_activity": "2026-02-05T04:30:18Z",
+        "deal_value": 13976,
+        "source": "referral"
+      },
+      "activities": [
+        {
+          "id": "act-042-03",
+          "type": "form_submit",
+          "timestamp": "2026-01-31T01:30:18Z",
+          "metadata": {
+            "form_name": "newsletter_signup"
+          }
+        },
+        {
+          "id": "act-042-01",
+          "type": "meeting_booked",
+          "timestamp": "2026-01-27T23:30:18Z",
+          "metadata": {
+            "meeting_type": "pricing_discussion",
+            "duration_minutes": 15
+          }
+        },
+        {
+          "id": "act-042-05",
+          "type": "page_visit",
+          "timestamp": "2025-12-20T16:30:18Z",
+          "metadata": {
+            "page": "/about",
+            "duration_seconds": 193
+          }
+        },
+        {
+          "id": "act-042-06",
+          "type": "page_visit",
+          "timestamp": "2025-12-16T07:30:18Z",
+          "metadata": {
+            "page": "/demo",
+            "duration_seconds": 276
+          }
+        },
+        {
+          "id": "act-042-04",
+          "type": "form_submit",
+          "timestamp": "2025-12-14T12:30:18Z",
+          "metadata": {
+            "form_name": "contact_form"
+          }
+        },
+        {
+          "id": "act-042-02",
+          "type": "form_submit",
+          "timestamp": "2025-12-08T17:30:18Z",
+          "metadata": {
+            "form_name": "newsletter_signup"
+          }
+        }
+      ]
+    },
+    {
+      "contact": {
+        "id": "crm-043",
+        "name": "Mia Jones",
+        "email": "mia.jones@sparkinnov.com",
+        "company": "Spark Innovation",
+        "lifecycle_stage": "sql",
+        "last_activity": "2026-01-26T17:09:18Z",
+        "deal_value": 47239,
+        "source": "direct"
+      },
+      "activities": [
+        {
+          "id": "act-043-05",
+          "type": "page_visit",
+          "timestamp": "2026-01-19T15:09:18Z",
+          "metadata": {
+            "page": "/blog",
+            "duration_seconds": 50
+          }
+        },
+        {
+          "id": "act-043-03",
+          "type": "meeting_booked",
+          "timestamp": "2026-01-19T10:09:18Z",
+          "metadata": {
+            "meeting_type": "discovery_call",
+            "duration_minutes": 45
+          }
+        },
+        {
+          "id": "act-043-02",
+          "type": "page_visit",
+          "timestamp": "2026-01-17T02:09:18Z",
+          "metadata": {
+            "page": "/about",
+            "duration_seconds": 279
+          }
+        },
+        {
+          "id": "act-043-07",
+          "type": "meeting_booked",
+          "timestamp": "2026-01-08T12:09:18Z",
+          "metadata": {
+            "meeting_type": "demo",
+            "duration_minutes": 45
+          }
+        },
+        {
+          "id": "act-043-06",
+          "type": "meeting_booked",
+          "timestamp": "2025-12-21T02:09:18Z",
+          "metadata": {
+            "meeting_type": "discovery_call",
+            "duration_minutes": 45
+          }
+        },
+        {
+          "id": "act-043-01",
+          "type": "form_submit",
+          "timestamp": "2025-12-17T18:09:18Z",
+          "metadata": {
+            "form_name": "pricing_inquiry"
+          }
+        },
+        {
+          "id": "act-043-04",
+          "type": "email_opened",
+          "timestamp": "2025-12-13T21:09:18Z",
+          "metadata": {
+            "email_subject": "Your account update"
+          }
+        }
+      ]
+    },
+    {
+      "contact": {
+        "id": "crm-044",
+        "name": "Luna Lee",
+        "email": "luna.lee@quantumlab.com",
+        "company": "Quantum Labs",
+        "lifecycle_stage": "sql",
+        "last_activity": "2025-11-22T05:49:18Z",
+        "deal_value": 32187,
+        "source": "organic"
+      },
+      "activities": [
+        {
+          "id": "act-044-08",
+          "type": "email_opened",
+          "timestamp": "2025-11-16T13:49:18Z",
+          "metadata": {
+            "email_subject": "Syntriq: Getting started guide"
+          }
+        },
+        {
+          "id": "act-044-07",
+          "type": "meeting_booked",
+          "timestamp": "2025-11-10T04:49:18Z",
+          "metadata": {
+            "meeting_type": "discovery_call",
+            "duration_minutes": 45
+          }
+        },
+        {
+          "id": "act-044-05",
+          "type": "form_submit",
+          "timestamp": "2025-11-09T21:49:18Z",
+          "metadata": {
+            "form_name": "pricing_inquiry"
+          }
+        },
+        {
+          "id": "act-044-03",
+          "type": "page_visit",
+          "timestamp": "2025-11-07T05:49:18Z",
+          "metadata": {
+            "page": "/case-studies",
+            "duration_seconds": 105
+          }
+        },
+        {
+          "id": "act-044-06",
+          "type": "form_submit",
+          "timestamp": "2025-10-22T19:49:18Z",
+          "metadata": {
+            "form_name": "pricing_inquiry"
+          }
+        },
+        {
+          "id": "act-044-01",
+          "type": "email_opened",
+          "timestamp": "2025-10-16T16:49:18Z",
+          "metadata": {
+            "email_subject": "Your demo is ready"
+          }
+        },
+        {
+          "id": "act-044-02",
+          "type": "meeting_booked",
+          "timestamp": "2025-09-30T21:49:18Z",
+          "metadata": {
+            "meeting_type": "pricing_discussion",
+            "duration_minutes": 15
+          }
+        },
+        {
+          "id": "act-044-04",
+          "type": "form_submit",
+          "timestamp": "2025-09-30T02:49:18Z",
+          "metadata": {
+            "form_name": "demo_request"
+          }
+        }
+      ]
+    },
+    {
+      "contact": {
+        "id": "crm-045",
+        "name": "Evelyn Martinez",
+        "email": "evelyn.martinez@globalsolu.com",
+        "company": "Global Solutions",
+        "lifecycle_stage": "customer",
+        "last_activity": "2026-01-29T06:50:18Z",
+        "deal_value": 29198,
+        "source": "referral"
+      },
+      "activities": [
+        {
+          "id": "act-045-06",
+          "type": "form_submit",
+          "timestamp": "2026-01-14T11:50:18Z",
+          "metadata": {
+            "form_name": "contact_form"
+          }
+        },
+        {
+          "id": "act-045-01",
+          "type": "form_submit",
+          "timestamp": "2026-01-13T17:50:18Z",
+          "metadata": {
+            "form_name": "pricing_inquiry"
+          }
+        },
+        {
+          "id": "act-045-08",
+          "type": "page_visit",
+          "timestamp": "2026-01-10T08:50:18Z",
+          "metadata": {
+            "page": "/contact",
+            "duration_seconds": 176
+          }
+        },
+        {
+          "id": "act-045-04",
+          "type": "meeting_booked",
+          "timestamp": "2026-01-08T06:50:18Z",
+          "metadata": {
+            "meeting_type": "discovery_call",
+            "duration_minutes": 30
+          }
+        },
+        {
+          "id": "act-045-03",
+          "type": "email_opened",
+          "timestamp": "2025-12-28T18:50:18Z",
+          "metadata": {
+            "email_subject": "Your account update"
+          }
+        },
+        {
+          "id": "act-045-02",
+          "type": "page_visit",
+          "timestamp": "2025-12-14T18:50:18Z",
+          "metadata": {
+            "page": "/case-studies",
+            "duration_seconds": 232
+          }
+        },
+        {
+          "id": "act-045-05",
+          "type": "form_submit",
+          "timestamp": "2025-12-12T14:50:18Z",
+          "metadata": {
+            "form_name": "pricing_inquiry"
+          }
+        },
+        {
+          "id": "act-045-07",
+          "type": "page_visit",
+          "timestamp": "2025-12-09T00:50:18Z",
+          "metadata": {
+            "page": "/",
+            "duration_seconds": 165
+          }
+        }
+      ]
+    },
+    {
+      "contact": {
+        "id": "crm-046",
+        "name": "Luna Garcia",
+        "email": "luna.garcia@nexusdigit.com",
+        "company": "Nexus Digital",
+        "lifecycle_stage": "opportunity",
+        "last_activity": "2025-12-08T05:07:18Z",
+        "deal_value": 60471,
+        "source": "organic"
+      },
+      "activities": [
+        {
+          "id": "act-046-01",
+          "type": "form_submit",
+          "timestamp": "2025-12-05T20:07:18Z",
+          "metadata": {
+            "form_name": "demo_request"
+          }
+        },
+        {
+          "id": "act-046-02",
+          "type": "form_submit",
+          "timestamp": "2025-11-29T16:07:18Z",
+          "metadata": {
+            "form_name": "newsletter_signup"
+          }
+        },
+        {
+          "id": "act-046-03",
+          "type": "page_visit",
+          "timestamp": "2025-11-11T11:07:18Z",
+          "metadata": {
+            "page": "/features",
+            "duration_seconds": 175
+          }
+        },
+        {
+          "id": "act-046-05",
+          "type": "form_submit",
+          "timestamp": "2025-11-09T19:07:18Z",
+          "metadata": {
+            "form_name": "pricing_inquiry"
+          }
+        },
+        {
+          "id": "act-046-04",
+          "type": "page_visit",
+          "timestamp": "2025-11-07T23:07:18Z",
+          "metadata": {
+            "page": "/contact",
+            "duration_seconds": 246
+          }
+        },
+        {
+          "id": "act-046-06",
+          "type": "form_submit",
+          "timestamp": "2025-11-07T16:07:18Z",
+          "metadata": {
+            "form_name": "newsletter_signup"
+          }
+        },
+        {
+          "id": "act-046-07",
+          "type": "email_opened",
+          "timestamp": "2025-10-14T08:07:18Z",
+          "metadata": {
+            "email_subject": "Your demo is ready"
+          }
+        }
+      ]
+    },
+    {
+      "contact": {
+        "id": "crm-047",
+        "name": "Charlotte Thomas",
+        "email": "charlotte.thomas@cloudninel.com",
+        "company": "CloudNine Ltd",
+        "lifecycle_stage": "sql",
+        "last_activity": "2026-01-14T17:02:18Z",
+        "deal_value": 32804,
+        "source": "organic"
+      },
+      "activities": [
+        {
+          "id": "act-047-01",
+          "type": "page_visit",
+          "timestamp": "2026-01-10T20:02:18Z",
+          "metadata": {
+            "page": "/blog",
+            "duration_seconds": 93
+          }
+        },
+        {
+          "id": "act-047-05",
+          "type": "form_submit",
+          "timestamp": "2026-01-06T18:02:18Z",
+          "metadata": {
+            "form_name": "contact_form"
+          }
+        },
+        {
+          "id": "act-047-06",
+          "type": "meeting_booked",
+          "timestamp": "2025-12-24T01:02:18Z",
+          "metadata": {
+            "meeting_type": "pricing_discussion",
+            "duration_minutes": 30
+          }
+        },
+        {
+          "id": "act-047-03",
+          "type": "form_submit",
+          "timestamp": "2025-12-15T15:02:18Z",
+          "metadata": {
+            "form_name": "pricing_inquiry"
+          }
+        },
+        {
+          "id": "act-047-02",
+          "type": "email_opened",
+          "timestamp": "2025-12-11T10:02:18Z",
+          "metadata": {
+            "email_subject": "Your account update"
+          }
+        },
+        {
+          "id": "act-047-07",
+          "type": "meeting_booked",
+          "timestamp": "2025-12-04T09:02:18Z",
+          "metadata": {
+            "meeting_type": "discovery_call",
+            "duration_minutes": 60
+          }
+        },
+        {
+          "id": "act-047-04",
+          "type": "page_visit",
+          "timestamp": "2025-12-04T03:02:18Z",
+          "metadata": {
+            "page": "/blog",
+            "duration_seconds": 11
+          }
+        }
+      ]
+    },
+    {
+      "contact": {
+        "id": "crm-048",
+        "name": "Olivia Miller",
+        "email": "olivia.miller@techstarti.com",
+        "company": "TechStart Inc",
+        "lifecycle_stage": "lead",
+        "last_activity": "2025-11-22T00:27:18Z",
+        "deal_value": 7916,
+        "source": "paid"
+      },
+      "activities": [
+        {
+          "id": "act-048-02",
+          "type": "page_visit",
+          "timestamp": "2025-11-21T15:27:18Z",
+          "metadata": {
+            "page": "/pricing",
+            "duration_seconds": 157
+          }
+        },
+        {
+          "id": "act-048-05",
+          "type": "meeting_booked",
+          "timestamp": "2025-10-30T06:27:18Z",
+          "metadata": {
+            "meeting_type": "pricing_discussion",
+            "duration_minutes": 60
+          }
+        },
+        {
+          "id": "act-048-01",
+          "type": "meeting_booked",
+          "timestamp": "2025-10-18T07:27:18Z",
+          "metadata": {
+            "meeting_type": "pricing_discussion",
+            "duration_minutes": 15
+          }
+        },
+        {
+          "id": "act-048-03",
+          "type": "form_submit",
+          "timestamp": "2025-10-15T04:27:18Z",
+          "metadata": {
+            "form_name": "contact_form"
+          }
+        },
+        {
+          "id": "act-048-04",
+          "type": "email_opened",
+          "timestamp": "2025-10-04T17:27:18Z",
+          "metadata": {
+            "email_subject": "Your account update"
+          }
+        }
+      ]
+    },
+    {
+      "contact": {
+        "id": "crm-049",
+        "name": "James Moore",
+        "email": "james.moore@summitente.com",
+        "company": "Summit Enterprises",
+        "lifecycle_stage": "lead",
+        "last_activity": "2025-12-13T12:06:18Z",
+        "deal_value": 7469,
+        "source": "organic"
+      },
+      "activities": [
+        {
+          "id": "act-049-04",
+          "type": "email_opened",
+          "timestamp": "2025-12-01T01:06:18Z",
+          "metadata": {
+            "email_subject": "Syntriq: Getting started guide"
+          }
+        },
+        {
+          "id": "act-049-03",
+          "type": "email_opened",
+          "timestamp": "2025-11-29T08:06:18Z",
+          "metadata": {
+            "email_subject": "Your account update"
+          }
+        },
+        {
+          "id": "act-049-07",
+          "type": "page_visit",
+          "timestamp": "2025-11-19T09:06:18Z",
+          "metadata": {
+            "page": "/about",
+            "duration_seconds": 49
+          }
+        },
+        {
+          "id": "act-049-05",
+          "type": "form_submit",
+          "timestamp": "2025-11-06T08:06:18Z",
+          "metadata": {
+            "form_name": "contact_form"
+          }
+        },
+        {
+          "id": "act-049-02",
+          "type": "page_visit",
+          "timestamp": "2025-11-02T01:06:18Z",
+          "metadata": {
+            "page": "/demo",
+            "duration_seconds": 289
+          }
+        },
+        {
+          "id": "act-049-01",
+          "type": "email_opened",
+          "timestamp": "2025-10-30T19:06:18Z",
+          "metadata": {
+            "email_subject": "Your account update"
+          }
+        },
+        {
+          "id": "act-049-06",
+          "type": "page_visit",
+          "timestamp": "2025-10-23T20:06:18Z",
+          "metadata": {
+            "page": "/",
+            "duration_seconds": 138
+          }
+        }
+      ]
+    },
+    {
+      "contact": {
+        "id": "crm-050",
+        "name": "Owen Moore",
+        "email": "owen.moore@dataflowsy.com",
+        "company": "DataFlow Systems",
+        "lifecycle_stage": "sql",
+        "last_activity": "2026-01-24T08:43:18Z",
+        "deal_value": 24477,
+        "source": "paid"
+      },
+      "activities": [
+        {
+          "id": "act-050-06",
+          "type": "page_visit",
+          "timestamp": "2026-01-19T08:43:18Z",
+          "metadata": {
+            "page": "/demo",
+            "duration_seconds": 148
+          }
+        },
+        {
+          "id": "act-050-05",
+          "type": "meeting_booked",
+          "timestamp": "2026-01-15T17:43:18Z",
+          "metadata": {
+            "meeting_type": "discovery_call",
+            "duration_minutes": 45
+          }
+        },
+        {
+          "id": "act-050-03",
+          "type": "page_visit",
+          "timestamp": "2026-01-06T17:43:18Z",
+          "metadata": {
+            "page": "/",
+            "duration_seconds": 156
+          }
+        },
+        {
+          "id": "act-050-04",
+          "type": "form_submit",
+          "timestamp": "2026-01-03T17:43:18Z",
+          "metadata": {
+            "form_name": "newsletter_signup"
+          }
+        },
+        {
+          "id": "act-050-02",
+          "type": "form_submit",
+          "timestamp": "2025-12-21T03:43:18Z",
+          "metadata": {
+            "form_name": "newsletter_signup"
+          }
+        },
+        {
+          "id": "act-050-01",
+          "type": "form_submit",
+          "timestamp": "2025-12-16T13:43:18Z",
+          "metadata": {
+            "form_name": "demo_request"
+          }
+        },
+        {
+          "id": "act-050-08",
+          "type": "meeting_booked",
+          "timestamp": "2025-12-15T21:43:18Z",
+          "metadata": {
+            "meeting_type": "technical_review",
+            "duration_minutes": 30
+          }
+        },
+        {
+          "id": "act-050-07",
+          "type": "form_submit",
+          "timestamp": "2025-11-30T22:43:18Z",
+          "metadata": {
+            "form_name": "newsletter_signup"
+          }
+        }
+      ]
+    }
+  ]
+}
