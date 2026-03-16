@@ -1,6 +1,6 @@
 # Syntriq - Contact Sync Dashboard
 
-This repository contains the Full Stack Developer Case for Syntriq[cite: 1, 5]. It includes a Node/Express/TypeScript backend, a React frontend, and a PostgreSQL database setup. This is a very basic implementation, time spent was under 4 hours as needed to get more familiarity with this techstack.
+This repository contains the Full Stack Developer Case for Syntriq. It includes a Node/Express/TypeScript backend, a React frontend, and a PostgreSQL database setup. This is a very basic implementation, time spent was under 4 hours as needed to get more familiarity with this techstack.
 
 ## Setup Instructions
 
@@ -44,7 +44,7 @@ npm run dev
 *Tomorrow we might need to add Google Ads and LinkedIn, which have completely different schemas and API patterns. To evolve the codebase without duplicating the sync logic, Gemini taught me about something called the "Adapter Pattern". Basically, we would create a single, standard Contact format for our own database. Then, for each new source like LinkedIn, we just write a specific adapter. This adapter's only job is to take the messy external data and translate it into our clean format. This way, our main database saving logic doesn't even need to know where the data came from, it just does its normal job. It seems like a smart way to keep things organized.*
 
 ### A user wants the dashboard to update live as new data syncs in. What approach would you take (polling, SSE, WebSockets, something else)? What are the tradeoffs given a small team and fast iteration cycle?
-*If a user wants the dashboard to update live as new data syncs in, there are a few ways to do it. WebSockets sound cool because they are truly real-time, but they seem to require a lot of extra setup and maintenance on the server. Given the tradeoff of having a small team and needing fast iteration cycles, setting up WebSockets might be overkill right now. Instead, using Server-Sent Events (SSE) or just simple Short Polling (asking the server for updates every couple of seconds) seems like a nice and simple approach? It gives that "live" feel without the whole thing feeling like an over-kill.*
+*If a user wants the dashboard to update live as new data syncs in, there are a few ways to do it. WebSockets sound cool because they are truly real-time, but they seem to require a lot of extra setup and maintenance on the server. Given the tradeoff of having a small team and needing fast iteration cycles, setting up WebSockets might be overkill right now. Instead, using Server-Sent Events (SSE) or just simple Short Polling (asking the server for updates every couple of seconds) seems like a nice and simple approach. It gives that "live" feel without the whole thing feeling like an over-kill.*
 
 ### What would you instrument in this system to debug issues in production? Think about: sync failures, slow queries, external API latency, data freshness. What is worth building in a PoC vs. deferring?
 *To debug issues in production, we need to track things like sync failures, slow queries, external API latency, and data freshness. For this PoC, we actually already built a solid foundation by making the sync_runs table. This tracks when syncs start and complete, their status, and any errors encountered. If we were moving to a real production environment (deferring this for now), we could add advanced tools to monitor how slow the queries are, or to automatically alert if a sync fails. But for a quick PoC, the database table right now is a simple and basic start.*
@@ -55,6 +55,6 @@ npm run dev
 
 Given the tight timebox, I prioritized basic architectural structure, data modeling, and the needed API integration over deep polish. If I had more time, I would improve:
 * **Shared Types:** Create a shared TypeScript types library so the frontend and backend share the exact same `Contact` and `Activity` interfaces.
-* **Input Validation:** Add a maybe a feature to validate incoming API requests and external CRM payloads before they hit the database (What engineering has taught me, better to reduce risk during initialisation than at deployment stage :3).
-* **UI/UX Polish:** The current one is just so basic, most styling is with help of references online and from genAI tools. But surely taking up something existing which is nice, and then polishing it to our need would indeed be nice ;).
+* **Input Validation:** Add a maybe a feature to validate incoming API requests and external CRM payloads before they hit the database (What engineering has taught me, better to reduce risk during initialisation than at deployment stage).
+* **UI/UX Polish:** The current one is just so basic, most styling is with help of references online and from genAI tools. But surely taking up something existing which is nice, and then polishing it to our need would indeed be nice.
 * **Testing:** Add a bunch of tests for the backend API routes and React Testing Library tests for the component states.
