@@ -6,32 +6,32 @@ This repository contains the Full Stack Developer Case for Syntriq[cite: 1, 5]. 
 
 ### 1. Database Setup (Docker)
 Ensure Docker is running, then spin up the PostgreSQL container:
-\`\`\`bash
+```bash
 docker run --name syntriq-postgres -e POSTGRES_PASSWORD=postgres -e POSTGRES_DB=syntriq -p 5432:5432 -d postgres:15
-\`\`\`
+```
 
 Inject the database schema:
-\`\`\`bash
+```bash
 # On Windows PowerShell:
 Get-Content backend\src\db\schema.sql | docker exec -i syntriq-postgres psql -U postgres -d syntriq
-\`\`\`
+```
 
 ### 2. Backend Setup
 Navigate to the backend directory, install dependencies, and start the server:
-\`\`\`bash
+```bash
 cd backend
 npm install
 npm run dev
-\`\`\`
+```
 *(Note: Ensure `seed-data.json` is located in `backend/src/` for the mock CRM to function).*
 
 ### 3. Frontend Setup
 In a new terminal, navigate to the frontend directory, install dependencies, and start the Vite dev server:
-\`\`\`bash
+```bash
 cd frontend
 npm install
 npm run dev
-\`\`\`
+```
 
 ---
 
